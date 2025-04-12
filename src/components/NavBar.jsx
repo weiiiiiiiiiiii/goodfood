@@ -20,7 +20,7 @@ function NavBar() {
                     <NavLink
                         to={to}
                         className={
-                            ({ isActive }) => `mx-6 my-7 text-xl transition-all duration-500 ease-in-out ${isActive ? "opacity-100" : "opacity-60"} 
+                            ({ isActive }) => `mx-5 my-7 text-xl transition-all duration-500 ease-in-out ${isActive ? "opacity-100" : "opacity-60"} 
                     hover:opacity-100 hover:[text-shadow:0px_0px_30px_white]`
                         }
                     >
