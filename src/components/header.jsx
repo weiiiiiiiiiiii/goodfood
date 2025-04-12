@@ -1,8 +1,16 @@
+import { Link } from "react-router"
 
-function Header({title}){
-    return(
-        <header className="bg-green-500 text-white p-4">
-            <h2 >{title}</h2>
+function Header({ title }) {
+    return (
+        <header className="text-3xl p-4 flex flex-col items-center leading-28">
+
+            <Link to='/'>
+                <h2 className="font-bold">{title}</h2>
+            </Link>
+
+            <hr className="w-25 border-3 rounded-lg" />
+
+
         </header>
     )
 }
