@@ -1,6 +1,7 @@
+import breakfast from "../json/breakfast.json"
 
+import FoodList from "../components/FoodList";
 import Header from "../components/Header";
-import NavBar from "../components/NavBar";
 
 function Home() {
     return (
@@ -9,8 +10,7 @@ function Home() {
             <Header
                 title="好食 Breakfast"
             />
-            <NavBar/>
-            
+            <FoodList breakfast={breakfast}/>
         </div>
 
     )
