@@ -39,7 +39,7 @@ function NavBar() {
 
     return (
         <div className="relative z-10">
-            <div className="hidden md:flex justify-around mt-3 pb-5 bg-white/50 backdrop-blur-md">
+            <div className="hidden md:flex justify-around mt-3 pb-5 bg-white/50 backdrop-blur-md mb-5">
                 <NavbarContent />
             </div>
 
