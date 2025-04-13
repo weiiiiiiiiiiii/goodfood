@@ -13,14 +13,14 @@ function NavBar() {
 
     const location = useLocation();
     const NavbarContent = () => (
-        <div className="flex flex-col md:flex-row md:justify-around md:space-x-6" >
+        <div className="flex flex-col md:flex-row md:justify-around space-x-4 lg:space-x-6" >
 
             {navbarcontent.map(({ to, label }) => (
                 <div key={to} className="flex flex-col items-center">
                     <NavLink
                         to={to}
                         className={
-                            ({ isActive }) => `mx-5 my-7 text-xl transition-all duration-500 ease-in-out ${isActive ? "opacity-100" : "opacity-60"} 
+                            ({ isActive }) => `mx-3 lg:mx-5 my-7 text-base lg:text-xl transition-all duration-500 ease-in-out ${isActive ? "opacity-100" : "opacity-60"} 
                     hover:opacity-100 hover:[text-shadow:0px_0px_30px_white]`
                         }
                     >
