@@ -1,7 +1,8 @@
 import breakfast from "../json/breakfast.json"
 
 import FoodList from "../components/FoodList";
-import Header from "../components/Header";
+import Header from "../components/header";
+
 
 function Home() {
     return (
