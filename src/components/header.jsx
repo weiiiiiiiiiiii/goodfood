@@ -1,5 +1,4 @@
 import { Link } from "react-router"
-import NavBar from "./NavBar"
 
 function Header({ title }) {
     return (
@@ -10,10 +9,7 @@ function Header({ title }) {
             </Link>
 
             <hr className="w-25 border-3 rounded-lg mb-6" />
-            <div className="w-full">
-                <NavBar />
-            </div>
-
+        
 
         </header>
     )

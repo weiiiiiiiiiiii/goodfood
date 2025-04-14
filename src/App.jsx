@@ -3,6 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 import './App.css'
 import Home from './pages/home'
 import Detail from './pages/detailpage'
+import AboutUs from './pages/AboutUs'
+
+import ScrollToTop from './ScrollToTop'
 
 
 function App() {
@@ -14,10 +17,12 @@ function App() {
         <div className="absolute inset-0 w-full bg-white/10 z-1 "></div>
         <div className="relative z-10 p-10">
           <BrowserRouter>
+            <ScrollToTop />
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/AboutUs" element={<AboutUs />} />
               <Route path="breakfast">
-                <Route path="id/:foodid" element={<Detail/>}/>
+                <Route path="id/:foodid" element={<Detail />} />
               </Route>
             </Routes>
           </BrowserRouter>
