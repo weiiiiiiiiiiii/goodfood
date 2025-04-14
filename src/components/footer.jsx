@@ -11,12 +11,12 @@ function Footer() {
                         <h2 className="font-bold text-lg md:text-xl mb-1">Contact</h2>
                         <div className="flex justify-center gap-3 md:gap-5">
                             <Link to="/"><img className="filter brightness-0 w-8 h-8 md:w-10 md:h-10" src="/nn-icon-facebook.svg" alt="facebook" /></Link>
-                            <Link to="/"><img className="filter brightness-0 w-8 h-8 md:w-10 md:h-10" src="/nn-icon-instagram.svg" alt="facebook" /></Link>
+                            <Link to="/"><img className="filter brightness-0 w-8 h-8 md:w-10 md:h-10" src="/nn-icon-instagram.svg" alt="instagram" /></Link>
                         </div>
                         <p className="font-bold text-[15px] md:text-base mt-2">02 2755 4066</p>
                     </div>
                     <div className="grid grid-rows-3 text-[15px] text-center md:text-base md:text-left items-center">
-                        <Link to="/" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_white]">關於我們</Link>
+                        <Link to="/AboutUs" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_white]">關於我們</Link>
                         <Link to="/" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_white]">會員登入</Link>
                         <Link to="/" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_white]">地圖探索</Link>
                     </div>
