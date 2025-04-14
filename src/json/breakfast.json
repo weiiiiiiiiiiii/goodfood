@@ -6,28 +6,475 @@
         "short_information": "好吃",
         "price": "50",
         "category": "dessert",
-        "pic": "/薯餅塔.png",
-        "info": ""
+        "pic": "/薯餅塔.png"
     },
     {
         "id": 2,
-        "name": "薯餅塔",
+        "name": "脆薯",
         "information": "",
         "short_information": "好吃",
         "price": "",
         "category": "dessert",
-        "pic": "/元氣好食-材料/煙燻火腿.png",
-        "info": ""
+        "pic": "/logo.png"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {}
+    {
+        "id": 3,
+        "name": "冰火波羅包",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "dessert",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 4,
+        "name": "糖霜蜂蜜",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "danish",
+        "pic": "/logo.png"
+    },
+
+    {
+        "id": 5,
+        "name": "泡菜燒肉",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "Omelette",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 6,
+        "name": "香薯乳酪",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "Omelette",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 7,
+        "name": "煙燻火腿",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/煙燻火腿.png"
+    },
+    {
+        "id": 8,
+        "name": "五花培根",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/五花培根.png"
+    },
+    {
+        "id": 9,
+        "name": "微笑薯餅",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/微笑薯餅.png"
+    },
+    {
+        "id": 10,
+        "name": "酥脆香雞",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/酥脆香雞.png"
+    },
+    {
+        "id": 11,
+        "name": "醃漬燒肉",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/醃漬燒肉.png"
+    },
+    {
+        "id": 12,
+        "name": "洋蔥燻雞",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/洋蔥燻雞.png"
+    },
+    {
+        "id": 13,
+        "name": "好食鮪魚",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/好食鮪魚.png"
+    },
+    {
+        "id": 14,
+        "name": "嫩煎腓力",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/嫩煎腓力.png"
+    },
+    {
+        "id": 15,
+        "name": "德式香腸",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/德式香腸.png"
+    },
+    {
+        "id": 16,
+        "name": "咔啦雞腿",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/卡拉雞腿.png"
+    },
+    {
+        "id": 17,
+        "name": "漢堡肉排",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/漢堡肉排.png"
+    },
+    {
+        "id": 18,
+        "name": "輕食蔬菜",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/輕食蔬菜.png"
+    },
+    {
+        "id": 19,
+        "name": "香檸雞柳",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/香檸雞柳.png"
+    },
+    {
+        "id": 20,
+        "name": "黃金鱈魚",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "vitality",
+        "pic": "/元氣好食-材料/黃金鱈魚.png"
+    },
+    {
+        "id": 21,
+        "name": "薯餅",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "dessert",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 22,
+        "name": "麥克雞塊",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "dessert",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 23,
+        "name": "芝心棒",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "dessert",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 24,
+        "name": "香檸雞柳條",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "dessert",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 25,
+        "name": "好食捲餅",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "dessert",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 26,
+        "name": "堅果沙拉",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "dessert",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 27,
+        "name": "楓糖堅果",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "danish",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 28,
+        "name": "福源花生",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "danish",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 29,
+        "name": "煉乳巧克力",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "danish",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 30,
+        "name": "五花培根",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "Omelette",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 31,
+        "name": "乳酪起司",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "Omelette",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 32,
+        "name": "好食鮪魚",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "Omelette",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 33,
+        "name": "洋蔥燻雞",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "Omelette",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 34,
+        "name": "泡菜培根",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "Omelette",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 35,
+        "name": "芋泥起司",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "Omelette",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 36,
+        "name": "好食紅茶",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "drink",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 37,
+        "name": "好食奶茶",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "drink",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 38,
+        "name": "好食鮮奶茶",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "drink",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 39,
+        "name": "好食可可",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "drink",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 40,
+        "name": "高大鮮乳",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "drink",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 41,
+        "name": "美式黑咖啡",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "drink",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 42,
+        "name": "好食特調",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "drink",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 43,
+        "name": "好食鴛鴦",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "drink",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 44,
+        "name": "拿鐵咖啡",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "drink",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 45,
+        "name": "可樂、雪碧",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "drink",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 46,
+        "name": "番茄義大利肉醬",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "pasta",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 47,
+        "name": "奶油玉米白醬",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "pasta",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 48,
+        "name": "鮭魚青醬",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "pasta",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 49,
+        "name": "好球開打",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "combo",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 50,
+        "name": "爵士饗宴",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "combo",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 51,
+        "name": "法式香頌",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "combo",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 52,
+        "name": "盛夏派對",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "combo",
+        "pic": "/logo.png"
+    },
+    {
+        "id": 53,
+        "name": "美好食光",
+        "information": "",
+        "short_information": "好吃",
+        "price": "",
+        "category": "combo",
+        "pic": "/logo.png"
+    }
 ]
