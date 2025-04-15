@@ -2,13 +2,13 @@ import { NavLink, useLocation } from "react-router"
 
 function NavBar() {
     const navbarcontent = [
-        { to: "/food/category/vitality", label: "元氣好食", info: "可選擇 起士堡、馬芬堡、丹麥吐司、貝果" },
-        { to: "/food/category/dessert", label: "好好食小點心" },
-        { to: "/food/category/danish", label: "法式丹麥" },
-        { to: "/food/category/Omelette", label: "手工蛋餅" },
-        { to: "/food/category/drink", label: "好好喝" },
-        { to: "/food/category/pasta", label: "好食Pasta" },
-        { to: "/food/category/combo", label: "好食組合" },
+        { to: "/breakfast/category/vitality", label: "元氣好食", info: "可選擇 起士堡、馬芬堡、丹麥吐司、貝果" },
+        { to: "/breakfas/category/dessert", label: "好好食小點心" },
+        { to: "/breakfas/category/danish", label: "法式丹麥" },
+        { to: "/breakfas/category/Omelette", label: "手工蛋餅" },
+        { to: "/breakfas/category/drink", label: "好好喝" },
+        { to: "/breakfas/category/pasta", label: "好食Pasta" },
+        { to: "/breakfas/category/combo", label: "好食組合" },
     ];
 
     const location = useLocation();
