@@ -1,6 +1,10 @@
 import { NavLink, useLocation } from "react-router"
+import { useState } from "react";
+import HamMenu from "./HamMenu";
 
 function NavBar() {
+    const [isOpen, setIsOpen] = useState(false);
+
     const navbarcontent = [
         { to: "/breakfast/category/vitality", label: "元氣好食", info: "可選擇 起士堡、馬芬堡、丹麥吐司、貝果" },
         { to: "/breakfas/category/dessert", label: "好好食小點心" },
@@ -20,7 +24,7 @@ function NavBar() {
                     <NavLink
                         to={to}
                         className={
-                            ({ isActive }) => `mx-3 lg:mx-5 my-7 text-base lg:text-xl transition-all duration-500 ease-in-out ${isActive ? "opacity-100" : "opacity-60"} 
+                            ({ isActive }) => `text-white/90 md:text-black mx-3 lg:mx-5 my-3 md:my-7 text-base lg:text-xl transition-all duration-500 ease-in-out ${isActive ? "opacity-100" : "opacity-60"} 
                     hover:opacity-100 hover:[text-shadow:0px_0px_30px_white]`
                         }
                     >
@@ -38,12 +42,31 @@ function NavBar() {
     );
 
     return (
-        <div className="relative z-10">
-            <div className="hidden md:flex justify-around mt-3 pb-5 bg-white/50 backdrop-blur-md mb-5">
-                <NavbarContent />
+        <>
+            <div className="relative z-10">
+                <div className="hidden md:flex justify-around mt-3 pb-5 bg-white/50 backdrop-blur-md mb-5">
+                    <NavbarContent />
+                </div>
             </div>
 
-        </div>
+            <div className="drawer md:hidden">
+                <input id="drawer-toggle" type="checkbox" className="drawer-toggle" checked={isOpen} />
+                <HamMenu
+                    id="drawer-toggle"
+                    className="z-1000 absolute drawer-toggle left-0 mt-6 -translate-y-45"
+                    onClick={() => setIsOpen(!isOpen)}
+                    isOpen={isOpen}
+                />
+                <div className="drawer-side z-999 w-auto">
+                    <label htmlFor="drawer-toggle" className="drawer-overlay" onClick={() => setIsOpen(false)}></label>
+                    <div className="pt-20">
+                        <h2 className="bg-green-100 bg-opacity-50 text-xl font-bold pt-1 pb-1 mb-3">CATEGORY</h2>
+                        <NavbarContent />
+                    </div>
+
+                </div>
+            </div>
+        </>
     )
 }
 
