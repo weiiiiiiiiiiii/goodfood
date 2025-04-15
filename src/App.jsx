@@ -6,6 +6,7 @@ import Detail from './pages/detailpage'
 import AboutUs from './pages/AboutUs'
 
 import ScrollToTop from './ScrollToTop'
+import Category from './pages/category'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/AboutUs" element={<AboutUs />} />
               <Route path="breakfast">
+                <Route path="/breakfast/category/:foodcategory" element={<Category />} />
                 <Route path="id/:foodid" element={<Detail />} />
               </Route>
             </Routes>

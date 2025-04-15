@@ -13,7 +13,7 @@
         "name": "脆薯",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "30",
         "category": "dessert",
         "pic": "/logo.png"
     },
@@ -22,7 +22,7 @@
         "name": "冰火波羅包",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "35",
         "category": "dessert",
         "pic": "/logo.png"
     },
@@ -31,7 +31,7 @@
         "name": "糖霜蜂蜜",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "40",
         "category": "danish",
         "pic": "/logo.png"
     },
@@ -41,7 +41,7 @@
         "name": "泡菜燒肉",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "60",
         "category": "Omelette",
         "pic": "/logo.png"
     },
@@ -50,7 +50,7 @@
         "name": "香薯乳酪",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "60",
         "category": "Omelette",
         "pic": "/logo.png"
     },
@@ -185,7 +185,7 @@
         "name": "薯餅",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "15",
         "category": "dessert",
         "pic": "/logo.png"
     },
@@ -194,7 +194,7 @@
         "name": "麥克雞塊",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "30",
         "category": "dessert",
         "pic": "/logo.png"
     },
@@ -203,7 +203,7 @@
         "name": "芝心棒",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "35",
         "category": "dessert",
         "pic": "/logo.png"
     },
@@ -212,7 +212,7 @@
         "name": "香檸雞柳條",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "40",
         "category": "dessert",
         "pic": "/logo.png"
     },
@@ -221,7 +221,7 @@
         "name": "好食捲餅",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "50",
         "category": "dessert",
         "pic": "/logo.png"
     },
@@ -230,7 +230,7 @@
         "name": "堅果沙拉",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "50",
         "category": "dessert",
         "pic": "/logo.png"
     },
@@ -239,7 +239,7 @@
         "name": "楓糖堅果",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "40",
         "category": "danish",
         "pic": "/logo.png"
     },
@@ -248,7 +248,7 @@
         "name": "福源花生",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "40",
         "category": "danish",
         "pic": "/logo.png"
     },
@@ -257,7 +257,7 @@
         "name": "煉乳巧克力",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "40",
         "category": "danish",
         "pic": "/logo.png"
     },
@@ -266,7 +266,7 @@
         "name": "五花培根",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "35",
         "category": "Omelette",
         "pic": "/logo.png"
     },
@@ -275,7 +275,7 @@
         "name": "乳酪起司",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "40",
         "category": "Omelette",
         "pic": "/logo.png"
     },
@@ -284,7 +284,7 @@
         "name": "好食鮪魚",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "40",
         "category": "Omelette",
         "pic": "/logo.png"
     },
@@ -293,7 +293,7 @@
         "name": "洋蔥燻雞",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "40",
         "category": "Omelette",
         "pic": "/logo.png"
     },
@@ -302,7 +302,7 @@
         "name": "泡菜培根",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "50",
         "category": "Omelette",
         "pic": "/logo.png"
     },
@@ -311,7 +311,7 @@
         "name": "芋泥起司",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "60",
         "category": "Omelette",
         "pic": "/logo.png"
     },
@@ -320,7 +320,7 @@
         "name": "好食紅茶",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "20",
         "category": "drink",
         "pic": "/logo.png"
     },
@@ -329,7 +329,7 @@
         "name": "好食奶茶",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "25",
         "category": "drink",
         "pic": "/logo.png"
     },
@@ -338,7 +338,7 @@
         "name": "好食鮮奶茶",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "40",
         "category": "drink",
         "pic": "/logo.png"
     },
@@ -347,7 +347,7 @@
         "name": "好食可可",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "40",
         "category": "drink",
         "pic": "/logo.png"
     },
@@ -356,7 +356,7 @@
         "name": "高大鮮乳",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "50",
         "category": "drink",
         "pic": "/logo.png"
     },
@@ -365,7 +365,7 @@
         "name": "美式黑咖啡",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "40",
         "category": "drink",
         "pic": "/logo.png"
     },
@@ -374,7 +374,7 @@
         "name": "好食特調",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "45",
         "category": "drink",
         "pic": "/logo.png"
     },
@@ -383,7 +383,7 @@
         "name": "好食鴛鴦",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "50",
         "category": "drink",
         "pic": "/logo.png"
     },
@@ -392,7 +392,7 @@
         "name": "拿鐵咖啡",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "60",
         "category": "drink",
         "pic": "/logo.png"
     },
@@ -401,7 +401,7 @@
         "name": "可樂、雪碧",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "30",
         "category": "drink",
         "pic": "/logo.png"
     },
@@ -410,7 +410,7 @@
         "name": "番茄義大利肉醬",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "65",
         "category": "pasta",
         "pic": "/logo.png"
     },
@@ -419,7 +419,7 @@
         "name": "奶油玉米白醬",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "70",
         "category": "pasta",
         "pic": "/logo.png"
     },
@@ -428,7 +428,7 @@
         "name": "鮭魚青醬",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "75",
         "category": "pasta",
         "pic": "/logo.png"
     },
@@ -437,7 +437,7 @@
         "name": "好球開打",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "100",
         "category": "combo",
         "pic": "/logo.png"
     },
@@ -446,7 +446,7 @@
         "name": "爵士饗宴",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "100",
         "category": "combo",
         "pic": "/logo.png"
     },
@@ -455,7 +455,7 @@
         "name": "法式香頌",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "100",
         "category": "combo",
         "pic": "/logo.png"
     },
@@ -464,7 +464,7 @@
         "name": "盛夏派對",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "100",
         "category": "combo",
         "pic": "/logo.png"
     },
@@ -473,7 +473,7 @@
         "name": "美好食光",
         "information": "",
         "short_information": "好吃",
-        "price": "",
+        "price": "100",
         "category": "combo",
         "pic": "/logo.png"
     }
