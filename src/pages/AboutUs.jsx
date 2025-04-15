@@ -19,21 +19,33 @@ function AboutUs() {
             </div>
 
             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 md:gap-[5rem]  lg:gap-[15rem] w-fit mx-auto pb-5">
+
                 <div className="grid grid-row w-80 md:w-50 lg:w-80 py-5">
                     <div>
                         <img className="w-full bg-[#EAFFEA]/50 rounded-t-xl" src="/creator/wei.PNG" alt="" />
                     </div>
-                    <p className="bg-[#EAFFEA] h-40 flex justify-center items-center rounded-b-xl">
-                        作者的話
-                    </p>
+                    <div className="text-center bg-[#EAFFEA] h-40 rounded-b-xl">
+                        <p className="font-bold pt-5 text-lg">
+                            RWeiii
+                        </p>
+                        <p className="pt-2">
+                            作者的話
+                        </p>
+                    </div>
+
                 </div>
                 <div className="grid grid-row w-80 md:w-50 lg:w-80 py-5">
                     <div>
                         <img className="w-full bg-[#EAFFEA]/50 rounded-t-xl" src="/creator/rice.PNG" alt="" />
                     </div>
-                    <p className="bg-[#EAFFEA] h-40 flex justify-center items-center rounded-b-xl">
-                        作者的話
-                    </p>
+                    <div className="text-center bg-[#EAFFEA] h-40 rounded-b-xl">
+                        <p className="font-bold pt-5 text-lg">
+                            Rice
+                        </p>
+                        <p className="pt-2">
+                            作者的話
+                        </p>
+                    </div>
                 </div>
             </div>
 
