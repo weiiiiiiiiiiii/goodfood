@@ -5,8 +5,8 @@
         "information": "",
         "short_information": "好吃",
         "price": "50",
-        "category": "dessert",
-        "pic": "/薯餅塔.png"
+        "category": "好好食小點心",
+        "pic": "/小點心/薯餅塔.png"
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "30",
-        "category": "dessert",
+        "category": "好好食小點心",
         "pic": "/logo.png"
     },
     {
@@ -23,7 +23,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "35",
-        "category": "dessert",
+        "category": "好好食小點心",
         "pic": "/logo.png"
     },
     {
@@ -32,7 +32,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "40",
-        "category": "danish",
+        "category": "法式丹麥",
         "pic": "/logo.png"
     },
 
@@ -42,7 +42,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "60",
-        "category": "Omelette",
+        "category": "手工蛋餅",
         "pic": "/logo.png"
     },
     {
@@ -51,7 +51,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "60",
-        "category": "Omelette",
+        "category": "手工蛋餅",
         "pic": "/logo.png"
     },
     {
@@ -60,7 +60,7 @@
         "information": "經典煙燻風味是妳的好選擇。",
         "short_information": "好吃",
         "price": "40",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/煙燻火腿.png"
     },
     {
@@ -69,7 +69,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/五花培根.png"
     },
     {
@@ -78,7 +78,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/微笑薯餅.png"
     },
     {
@@ -87,7 +87,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/酥脆香雞.png"
     },
     {
@@ -96,7 +96,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/醃漬燒肉.png"
     },
     {
@@ -105,7 +105,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/洋蔥燻雞.png"
     },
     {
@@ -114,7 +114,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/好食鮪魚.png"
     },
     {
@@ -123,7 +123,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/嫩煎腓力.png"
     },
     {
@@ -132,7 +132,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/德式香腸.png"
     },
     {
@@ -141,7 +141,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/卡拉雞腿.png"
     },
     {
@@ -150,7 +150,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/漢堡肉排.png"
     },
     {
@@ -159,7 +159,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/輕食蔬菜.png"
     },
     {
@@ -168,7 +168,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/香檸雞柳.png"
     },
     {
@@ -177,7 +177,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "",
-        "category": "vitality",
+        "category": "元氣好食",
         "pic": "/元氣好食-材料/黃金鱈魚.png"
     },
     {
@@ -186,7 +186,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "15",
-        "category": "dessert",
+        "category": "好好食小點心",
         "pic": "/logo.png"
     },
     {
@@ -195,7 +195,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "30",
-        "category": "dessert",
+        "category": "好好食小點心",
         "pic": "/logo.png"
     },
     {
@@ -204,7 +204,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "35",
-        "category": "dessert",
+        "category": "好好食小點心",
         "pic": "/logo.png"
     },
     {
@@ -213,7 +213,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "40",
-        "category": "dessert",
+        "category": "好好食小點心",
         "pic": "/logo.png"
     },
     {
@@ -222,7 +222,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "50",
-        "category": "dessert",
+        "category": "好好食小點心",
         "pic": "/logo.png"
     },
     {
@@ -231,7 +231,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "50",
-        "category": "dessert",
+        "category": "好好食小點心",
         "pic": "/logo.png"
     },
     {
@@ -240,7 +240,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "40",
-        "category": "danish",
+        "category": "法式丹麥",
         "pic": "/logo.png"
     },
     {
@@ -249,7 +249,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "40",
-        "category": "danish",
+        "category": "法式丹麥",
         "pic": "/logo.png"
     },
     {
@@ -258,7 +258,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "40",
-        "category": "danish",
+        "category": "法式丹麥",
         "pic": "/logo.png"
     },
     {
@@ -267,7 +267,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "35",
-        "category": "Omelette",
+        "category": "手工蛋餅",
         "pic": "/logo.png"
     },
     {
@@ -276,7 +276,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "40",
-        "category": "Omelette",
+        "category": "手工蛋餅",
         "pic": "/logo.png"
     },
     {
@@ -285,7 +285,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "40",
-        "category": "Omelette",
+        "category": "手工蛋餅",
         "pic": "/logo.png"
     },
     {
@@ -294,7 +294,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "40",
-        "category": "Omelette",
+        "category": "手工蛋餅",
         "pic": "/logo.png"
     },
     {
@@ -303,7 +303,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "50",
-        "category": "Omelette",
+        "category": "手工蛋餅",
         "pic": "/logo.png"
     },
     {
@@ -312,7 +312,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "60",
-        "category": "Omelette",
+        "category": "手工蛋餅",
         "pic": "/logo.png"
     },
     {
@@ -321,7 +321,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "20",
-        "category": "drink",
+        "category": "好好喝",
         "pic": "/logo.png"
     },
     {
@@ -330,7 +330,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "25",
-        "category": "drink",
+        "category": "好好喝",
         "pic": "/logo.png"
     },
     {
@@ -339,7 +339,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "40",
-        "category": "drink",
+        "category": "好好喝",
         "pic": "/logo.png"
     },
     {
@@ -348,7 +348,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "40",
-        "category": "drink",
+        "category": "好好喝",
         "pic": "/logo.png"
     },
     {
@@ -357,7 +357,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "50",
-        "category": "drink",
+        "category": "好好喝",
         "pic": "/logo.png"
     },
     {
@@ -366,7 +366,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "40",
-        "category": "drink",
+        "category": "好好喝",
         "pic": "/logo.png"
     },
     {
@@ -375,7 +375,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "45",
-        "category": "drink",
+        "category": "好好喝",
         "pic": "/logo.png"
     },
     {
@@ -384,7 +384,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "50",
-        "category": "drink",
+        "category": "好好喝",
         "pic": "/logo.png"
     },
     {
@@ -393,7 +393,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "60",
-        "category": "drink",
+        "category": "好好喝",
         "pic": "/logo.png"
     },
     {
@@ -402,8 +402,8 @@
         "information": "",
         "short_information": "好吃",
         "price": "30",
-        "category": "drink",
-        "pic": "/logo.png"
+        "category": "好好喝",
+        "pic": "/好好喝/可樂、雪碧.png"
     },
     {
         "id": 46,
@@ -411,7 +411,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "65",
-        "category": "pasta",
+        "category": "好食Pasta",
         "pic": "/logo.png"
     },
     {
@@ -420,7 +420,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "70",
-        "category": "pasta",
+        "category": "好食Pasta",
         "pic": "/logo.png"
     },
     {
@@ -429,7 +429,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "75",
-        "category": "pasta",
+        "category": "好食Pasta",
         "pic": "/logo.png"
     },
     {
@@ -438,7 +438,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "100",
-        "category": "combo",
+        "category": "好食組合",
         "pic": "/logo.png"
     },
     {
@@ -447,7 +447,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "100",
-        "category": "combo",
+        "category": "好食組合",
         "pic": "/logo.png"
     },
     {
@@ -456,7 +456,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "100",
-        "category": "combo",
+        "category": "好食組合",
         "pic": "/logo.png"
     },
     {
@@ -465,7 +465,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "100",
-        "category": "combo",
+        "category": "好食組合",
         "pic": "/logo.png"
     },
     {
@@ -474,7 +474,7 @@
         "information": "",
         "short_information": "好吃",
         "price": "100",
-        "category": "combo",
+        "category": "好食組合",
         "pic": "/logo.png"
     }
 ]

@@ -2,7 +2,7 @@ function HamMenu({ onClick, isOpen, className }) {
     return (
         <span
             onClick={onClick}
-            className={`pt-1 pl-1 absolute inline-block absolute z-10 bg-blue-50 w-10 h-10 rounded-full opacity-70
+            className={`pt-1 left-5 pl-1 absolute inline-block absolute z-10 bg-blue-50 w-10 h-10 rounded-full opacity-70
                 hover:opacity-90 md:hidden flex item-center justify-center ${className}`}
         >
             <div className="w-8 h-6 flex flex-col justify-between hover:cursor-pointer">
