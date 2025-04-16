@@ -6,13 +6,13 @@ function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const navbarcontent = [
-        { to: "/breakfast/category/vitality", label: "元氣好食", info: "可選擇 起士堡、馬芬堡、丹麥吐司、貝果" },
-        { to: "/breakfas/category/dessert", label: "好好食小點心" },
-        { to: "/breakfas/category/danish", label: "法式丹麥" },
-        { to: "/breakfas/category/Omelette", label: "手工蛋餅" },
-        { to: "/breakfas/category/drink", label: "好好喝" },
-        { to: "/breakfas/category/pasta", label: "好食Pasta" },
-        { to: "/breakfas/category/combo", label: "好食組合" },
+        { to: "/breakfast/category/元氣好食", label: "元氣好食", info: "可選擇 起士堡、馬芬堡、丹麥吐司、貝果" },
+        { to: "/breakfast/category/好好食小點心", label: "好好食小點心" },
+        { to: "/breakfast/category/法式丹麥", label: "法式丹麥" },
+        { to: "/breakfast/category/手工蛋餅", label: "手工蛋餅" },
+        { to: "/breakfast/category/好好喝", label: "好好喝" },
+        { to: "/breakfast/category/好食Pasta", label: "好食Pasta" },
+        { to: "/breakfast/category/好食組合", label: "好食組合" },
     ];
 
     const location = useLocation();

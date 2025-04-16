@@ -3,9 +3,8 @@ import { Link } from "react-router"
 
 function Footer() {
     return (
-        <div className="px-15">
-            <hr className="border-3 my-8" />
-            <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="bg-yellow-100/90 mt-10 grid justifly-center px-10">
+            <div className=" md:px-10 grid grid-cols-1 md:grid-cols-2 py-5">
                 <div className="grid grid-cols-2">
                     <div className="grid grid-rows-3 flex justify-center items-center">
                         <h2 className="font-bold text-lg md:text-xl mb-1">Contact</h2>
@@ -16,9 +15,9 @@ function Footer() {
                         <p className="font-bold text-[15px] md:text-base mt-2">02 2755 4066</p>
                     </div>
                     <div className="grid grid-rows-3 text-[15px] text-center md:text-base md:text-left items-center">
-                        <Link to="/AboutUs" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_white]">關於我們</Link>
-                        <Link to="/" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_white]">會員登入</Link>
-                        <Link to="/" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_white]">地圖探索</Link>
+                        <Link to="/AboutUs" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_black]">關於我們</Link>
+                        <Link to="/" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_black]">會員登入</Link>
+                        <Link to="/" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_black]">地圖探索</Link>
                     </div>
                 </div>
                 <div className="grid grid-rows-3 items-center text-center mt-10 md:mt-0 md:text-left md:pl-15 ">
