@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "薯餅塔",
-        "information": "",
+        "information": "金黃酥脆的薯餅搭配濃郁醬料，層層堆疊，入口滿滿幸福感。",
         "short_information": "好吃",
         "price": "50",
         "category": "好好食小點心",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "脆薯",
-        "information": "",
+        "information": "外酥內軟的黃金脆薯，現炸現吃最對味，是最經典的美味小點。",
         "short_information": "好吃",
         "price": "30",
         "category": "好好食小點心",
@@ -20,8 +20,8 @@
     {
         "id": 3,
         "name": "冰火波羅包",
-        "information": "",
-        "short_information": "好吃",
+        "information": "酥香波蘿包夾入冰涼奶油，一口咬下冰火交融，甜而不膩超療癒。",
+        "short_information": "",
         "price": "35",
         "category": "好好食小點心",
         "pic": "/logo.png"
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "糖霜蜂蜜",
-        "information": "",
+        "information": "酥鬆丹麥淋上香甜糖霜與蜂蜜，口感多層次，甜香迷人。",
         "short_information": "好吃",
         "price": "40",
         "category": "法式丹麥",
@@ -39,7 +39,7 @@
     {
         "id": 5,
         "name": "泡菜燒肉",
-        "information": "",
+        "information": "韓式泡菜與香煎燒肉結合，辣中帶香，手工蛋餅也能這麼過癮。",
         "short_information": "好吃",
         "price": "60",
         "category": "手工蛋餅",
@@ -48,7 +48,7 @@
     {
         "id": 6,
         "name": "香薯乳酪",
-        "information": "",
+        "information": "香濃乳酪與蛋餅完美融合，口感綿滑順口，甜鹹交錯剛剛好。",
         "short_information": "好吃",
         "price": "60",
         "category": "手工蛋餅",
@@ -57,7 +57,7 @@
     {
         "id": 7,
         "name": "煙燻火腿",
-        "information": "經典煙燻風味是妳的好選擇。",
+        "information": "經典煙燻火腿片，鹹香濃郁，是早餐餐盤中不可或缺的靈魂角色。",
         "short_information": "好吃",
         "price": "40",
         "category": "元氣好食",
@@ -66,7 +66,7 @@
     {
         "id": 8,
         "name": "五花培根",
-        "information": "",
+        "information": "五花培根煎至微焦，香氣四溢，油脂香與肉感完美平衡。",
         "short_information": "好吃",
         "price": "",
         "category": "元氣好食",
@@ -75,7 +75,7 @@
     {
         "id": 9,
         "name": "微笑薯餅",
-        "information": "",
+        "information": "可愛造型薯餅，酥脆討喜，咬一口就讓人忍不住微笑。",
         "short_information": "好吃",
         "price": "",
         "category": "元氣好食",
@@ -84,7 +84,7 @@
     {
         "id": 10,
         "name": "酥脆香雞",
-        "information": "",
+        "information": "外皮金黃酥脆，裡頭多汁雞肉，讓人一吃就愛上的香雞塊。",
         "short_information": "好吃",
         "price": "",
         "category": "元氣好食",
@@ -93,7 +93,7 @@
     {
         "id": 11,
         "name": "醃漬燒肉",
-        "information": "",
+        "information": "燒肉醃製後的甜美滋味，為你提供美好的早晨",
         "short_information": "好吃",
         "price": "",
         "category": "元氣好食",
@@ -102,7 +102,7 @@
     {
         "id": 12,
         "name": "洋蔥燻雞",
-        "information": "",
+        "information": "燻雞的美妙風味，日式風味醃製，酥脆多汁超涮嘴。",
         "short_information": "好吃",
         "price": "",
         "category": "元氣好食",
@@ -111,7 +111,7 @@
     {
         "id": 13,
         "name": "好食鮪魚",
-        "information": "",
+        "information": "嚴選鮪魚拌入特製醬料，口感滑順鮮香，是健康與美味的完美結合。",
         "short_information": "好吃",
         "price": "",
         "category": "元氣好食",
@@ -120,7 +120,7 @@
     {
         "id": 14,
         "name": "嫩煎腓力",
-        "information": "",
+        "information": "精選牛腓力煎至恰到好處，外酥內嫩，肉香四溢，讓人回味無窮。",
         "short_information": "好吃",
         "price": "",
         "category": "元氣好食",
@@ -129,7 +129,7 @@
     {
         "id": 15,
         "name": "德式香腸",
-        "information": "",
+        "information": "道地德式香腸，脆皮多汁，口感飽滿，是經典早餐的絕佳搭配。",
         "short_information": "好吃",
         "price": "",
         "category": "元氣好食",

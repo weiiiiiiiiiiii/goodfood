@@ -7,9 +7,6 @@ import { useParams } from 'react-router'
 
 function Detail() {
 
-
-
-
     const { foodid } = useParams();
     const food = breakfast.find(
         (x) => x.id === Number(foodid)
