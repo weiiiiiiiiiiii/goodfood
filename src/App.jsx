@@ -13,11 +13,11 @@ function App() {
 
   return (
     <>
-      <div className="relative min-h-screen ">
+      <div className="relative min-h-screen">
         <div className="absolute inset-0 bg-[url('/bg.jpg')] w-full bg-cover bg-center bg-fixed opacity-50 z-0 "></div>
-        <div className="absolute inset-0 w-full bg-white/10 z-1 "></div>
-        <div className="relative z-10 pt-10">
-          <BrowserRouter> 
+        <div className="absolute inset-0 w-full bg-white/15 z-1 "></div>
+        <div className="relative z-10 text-black">
+          <BrowserRouter>
             <ScrollToTop />
             <Routes>
               <Route path="/" element={<Home />} />

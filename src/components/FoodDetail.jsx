@@ -1,7 +1,9 @@
+import Heart from './Heart'
+
 function FoodDetail({ food }) {
     return (
         <div className="">
-            <div className="w-3/5 mx-auto flex flex-col justify-center items-center gap-10 bg-[#F9E1E1] text-black  mt-10 py-5 rounded-3xl">
+            <div className="w-3/5 mx-auto flex flex-col justify-center items-center gap-10 bg-[#F9E1E1] text-black  mt-10 mb-[10rem] py-5 rounded-3xl">
                 <img
                     src={food.pic}
                     alt=""
@@ -10,8 +12,8 @@ function FoodDetail({ food }) {
 
                 <div className="w-full px-4 mb-0">
                     <div className="flex justify-start items-center gap-[2rem] mx-[3rem]">
-                        <img src="/heart.svg" alt="Heart Icon" className="w-[2.2rem] h-[2.2rem]" />
-                        <button className="border rounded-2xl px-[0.6rem] text-[1.2rem]"> Comments </button>
+                        <Heart />
+                        <button className="border border-black border-[2px] rounded-2xl px-[1rem] py-[0.1rem] text-[1.5rem] text-black transition-all duration-400 hover:bg-gray-300 hover:border-none hover:text-white cursor-pointer"> Comments </button>
                     </div>
                 </div>
 
@@ -23,15 +25,15 @@ function FoodDetail({ food }) {
 
                 <div className="w-full px-4 flex justify-start -mt-3">
                     <p className="mx-[3rem] text-[1.3rem]">{food.information}</p>
-                    <button className="border rounded-sm px-[0.7rem] text-[1rem] -ml-[1.5rem] bg-[#D9D9D9] text-[#424242] border-[#424242]">詳細資訊</button>
+                    <button className="border rounded-sm px-[0.7rem] text-[1rem] -ml-[1.5rem] bg-[#D9D9D9] text-[#424242] border-[#424242] transition-all duration-400 hover:bg-gray-300 hover:border-none hover:text-white cursor-pointer">詳細資訊</button>
                 </div>
 
 
-                <div className="w-full px-4 -mt-3 ">
-                   
+                <div className="w-full px-[4rem] -mt-3 ">
+
                     <textarea
                         placeholder="備註:"
-                        className="w-[88%] ml-0 p-3 rounded-lg bg-[#D9D9D9] text-[1rem] resize-none focus:outline-none focus:ring-1 focus:ring-gray-400"
+                        className="w-full  p-3 rounded-lg bg-[#D9D9D9] text-[1rem] resize-none focus:outline-none focus:ring-1 focus:ring-gray-400"
                         rows="4"
                     >
                     </textarea>
