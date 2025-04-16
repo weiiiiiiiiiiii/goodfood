@@ -1,0 +1,27 @@
+import { useState } from "react"
+import { useSelector } from "react-redux";
+import { selectCartItems } from "../redux/cartSlice";
+import ShoppingIcon from "../icon/ShoppingIcon";
+
+export default function ShoppingCart() {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleModal = () => setIsOpen(!isOpen);
+
+    const cartItems = useSelector(selectCartItems)||[];
+    const count = cartItems.reduce((sum, item) => sum + (item.qty || 0), 0);
+
+    return (
+        <div
+            onClick={toggleModal}
+            className="inline-block absolute top-10 right-5 md:right-10 cursor-pointer"
+        >
+            <div className="indicator flex flex-col items-center text-center px-3">
+                {count > 0 && <span className="indicator-item badge bg-purple-400 text-white">
+                    {count}
+                </span>}
+                <ShoppingIcon  />
+            </div>
+            <p className="text-xs opacity-60 mt-2">Shopping Bag</p>
+        </div>
+    )
+}

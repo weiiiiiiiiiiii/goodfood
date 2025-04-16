@@ -1,4 +1,5 @@
 import { Link } from "react-router"
+import ShoppingCart from "./ShoppingCart"
 
 function Header({ title }) {
     return (
@@ -7,7 +8,7 @@ function Header({ title }) {
             <Link to='/'>
                 <h2 className="font-bold">{title}</h2>
             </Link>
-
+            <ShoppingCart/>
             <hr className="w-25 border-3 rounded-lg mb-6" />
         
 
