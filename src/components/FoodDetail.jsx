@@ -70,7 +70,7 @@ function FoodDetail({ food }) {
                             <p className="w-full text-right px-[3.8rem] text-[1.2rem]">
                                 <span className="font-bold">總價</span>:  {food.price * qty}
                             </p>
-                            <AddToCart />
+                            <AddToCart food={food} qty={qty}/>
                         </div>
 
                     </div>
@@ -140,7 +140,7 @@ function FoodDetail({ food }) {
                             <p className="w-[8rem] text-right pr-0 text-[1rem]">
                                 <span className="font-bold">總價</span>:  {food.price * qty}
                             </p>
-                            <AddToCart />
+                            <AddToCart food={food} qty={qty}/>
                         </div>
 
                     </div>
