@@ -12,7 +12,7 @@ function FoodItems({ food }) {
                                 <h1 className="font-bold text-lg">
                                     {food.name}
                                 </h1>
-                                <h2 className="opacity-60 text-sm">
+                                <h2 className="opacity-60 text-[13px]">
                                     {food.short_information}
                                 </h2>
                                 <p className="text-right font-bold">
