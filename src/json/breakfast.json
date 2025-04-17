@@ -138,8 +138,8 @@
     {
         "id": 16,
         "name": "咔啦雞腿",
-        "information": "",
-        "short_information": "好吃",
+        "information": "外酥內嫩的咔啦雞腿，鮮嫩多汁，香氣四溢，咬一口就停不下來。",
+        "short_information": "外酥內嫩的咔啦雞腿...",
         "price": "",
         "category": "元氣好食",
         "pic": "/元氣好食-材料/卡拉雞腿.png"
@@ -147,8 +147,8 @@
     {
         "id": 17,
         "name": "漢堡肉排",
-        "information": "",
-        "short_information": "好吃",
+        "information": "手打漢堡肉排，肉香濃郁，每一口都是厚實的滿足，完美搭配你的每一餐",
+        "short_information": "手打漢堡肉排，肉香濃...",
         "price": "",
         "category": "元氣好食",
         "pic": "/元氣好食-材料/漢堡肉排.png"
@@ -156,8 +156,8 @@
     {
         "id": 18,
         "name": "輕食蔬菜",
-        "information": "",
-        "short_information": "好吃",
+        "information": "多種新鮮蔬菜爽口搭配，輕盈無負擔，吃得健康又有飽足感。",
+        "short_information": "多種新鮮蔬菜爽口搭配...",
         "price": "",
         "category": "元氣好食",
         "pic": "/元氣好食-材料/輕食蔬菜.png"
@@ -165,8 +165,8 @@
     {
         "id": 19,
         "name": "香檸雞柳",
-        "information": "",
-        "short_information": "好吃",
+        "information": "檸檬香氣搭配酥炸雞柳，酸香清爽又開胃。",
+        "short_information": "好檸檬香氣搭配酥炸雞...",
         "price": "",
         "category": "元氣好食",
         "pic": "/元氣好食-材料/香檸雞柳.png"
@@ -174,8 +174,8 @@
     {
         "id": 20,
         "name": "黃金鱈魚",
-        "information": "",
-        "short_information": "好吃",
+        "information": "金黃酥脆外皮包裹著鮮嫩鱈魚，香酥不油膩，老少咸宜的海味首選",
+        "short_information": "金黃酥脆外皮包裹著鮮...",
         "price": "",
         "category": "元氣好食",
         "pic": "/元氣好食-材料/黃金鱈魚.png"
@@ -183,8 +183,8 @@
     {
         "id": 21,
         "name": "薯餅",
-        "information": "",
-        "short_information": "好吃",
+        "information": "酥脆外皮、綿密內餡，早餐經典好朋友，一塊接一塊超涮嘴。",
+        "short_information": "好酥脆外皮、綿密內餡...",
         "price": "15",
         "category": "好好食小點心",
         "pic": "/logo.png"
@@ -192,8 +192,8 @@
     {
         "id": 22,
         "name": "麥克雞塊",
-        "information": "",
-        "short_information": "好吃",
+        "information": "外酥內嫩的經典炸雞塊，搭配番茄醬更對味，是你解嘴饞的好選擇。",
+        "short_information": "外酥內嫩的經典炸雞...",
         "price": "30",
         "category": "好好食小點心",
         "pic": "/logo.png"
@@ -201,8 +201,8 @@
     {
         "id": 23,
         "name": "芝心棒",
-        "information": "",
-        "short_information": "好吃",
+        "information": "外皮香酥，內餡拉絲起司爆漿，每一口都是濃濃的幸福感。",
+        "short_information": "外皮香酥，內餡拉絲起...",
         "price": "35",
         "category": "好好食小點心",
         "pic": "/logo.png"
@@ -210,8 +210,8 @@
     {
         "id": 24,
         "name": "香檸雞柳條",
-        "information": "",
-        "short_information": "好吃",
+        "information": "檸香四溢的雞柳條，清爽又不膩口，讓人一吃就愛上。",
+        "short_information": "檸香四溢的雞柳條，清...",
         "price": "40",
         "category": "好好食小點心",
         "pic": "/logo.png"
@@ -219,8 +219,8 @@
     {
         "id": 25,
         "name": "好食捲餅",
-        "information": "",
-        "short_information": "好吃",
+        "information": "手工現做捲餅，包裹豐富餡料，飽足感十足，每一口都是滿滿驚喜。",
+        "short_information": "好手工現做捲餅，包...",
         "price": "50",
         "category": "好好食小點心",
         "pic": "/logo.png"
@@ -228,8 +228,8 @@
     {
         "id": 26,
         "name": "堅果沙拉",
-        "information": "",
-        "short_information": "好吃",
+        "information": "新鮮生菜搭配營養堅果，口感豐富又健康，是輕食控的最愛。",
+        "short_information": "新鮮生菜搭配營養堅...",
         "price": "50",
         "category": "好好食小點心",
         "pic": "/logo.png"
@@ -237,8 +237,8 @@
     {
         "id": 27,
         "name": "楓糖堅果",
-        "information": "",
-        "short_information": "好吃",
+        "information": "香甜楓糖搭配酥脆堅果，入口層次豐富，甜而不膩，是優雅下午茶的最佳選擇。",
+        "short_information": "香甜楓糖搭配酥脆堅...",
         "price": "40",
         "category": "法式丹麥",
         "pic": "/logo.png"
@@ -246,8 +246,8 @@
     {
         "id": 28,
         "name": "福源花生",
-        "information": "",
-        "short_information": "好吃",
+        "information": "選用福源濃醇花生醬，滑順濃郁、香氣撲鼻，花生控必吃的經典組合。",
+        "short_information": "選用福源濃醇花生...",
         "price": "40",
         "category": "法式丹麥",
         "pic": "/logo.png"
@@ -255,8 +255,8 @@
     {
         "id": 29,
         "name": "煉乳巧克力",
-        "information": "",
-        "short_information": "好吃",
+        "information": "濃郁巧克力加上甜蜜煉乳，甜食控的夢幻逸品，一口接一口超療癒。",
+        "short_information": "好濃郁巧克力加上甜蜜...",
         "price": "40",
         "category": "法式丹麥",
         "pic": "/logo.png"
@@ -264,8 +264,8 @@
     {
         "id": 30,
         "name": "五花培根",
-        "information": "",
-        "short_information": "好吃",
+        "information": "經典五花肉搭配鹹香培根，肉香十足、香氣四溢，是早餐界的重量級選手。",
+        "short_information": "好經典五花肉搭配鹹...",
         "price": "35",
         "category": "手工蛋餅",
         "pic": "/logo.png"
@@ -273,8 +273,8 @@
     {
         "id": 31,
         "name": "乳酪起司",
-        "information": "",
-        "short_information": "好吃",
+        "information": "香濃乳酪加上融化起司，雙倍濃郁，起司控的夢幻蛋餅款。",
+        "short_information": "香濃乳酪加上融化起司...",
         "price": "40",
         "category": "手工蛋餅",
         "pic": "/蛋餅/乳酪起司.png"
@@ -282,8 +282,8 @@
     {
         "id": 32,
         "name": "好食鮪魚",
-        "information": "",
-        "short_information": "好吃",
+        "information": "經典鮪魚餡搭配手工蛋餅皮，香氣十足、口感滑順，是不敗的早餐首選。",
+        "short_information": "經典鮪魚餡搭配手工蛋...",
         "price": "40",
         "category": "手工蛋餅",
         "pic": "/logo.png"
@@ -291,8 +291,8 @@
     {
         "id": 33,
         "name": "洋蔥燻雞",
-        "information": "",
-        "short_information": "好吃",
+        "information": "煙燻雞肉融合洋蔥甜味，鹹香不膩，咬下去超有層次。",
+        "short_information": "煙燻雞肉融合洋蔥甜...",
         "price": "40",
         "category": "手工蛋餅",
         "pic": "/logo.png"
@@ -300,8 +300,8 @@
     {
         "id": 34,
         "name": "泡菜培根",
-        "information": "",
-        "short_information": "好吃",
+        "information": "韓式泡菜微辣開胃，搭配香脆培根，酸辣交織的美味讓人上癮。",
+        "short_information": "好韓式泡菜微辣開...",
         "price": "50",
         "category": "手工蛋餅",
         "pic": "/logo.png"
@@ -309,8 +309,8 @@
     {
         "id": 35,
         "name": "芋泥起司",
-        "information": "",
-        "short_information": "好吃",
+        "information": "綿密芋泥與濃郁起司完美融合，鹹甜交錯，每一口都像在吃甜點。",
+        "short_information": "綿密芋泥與濃郁起司完...",
         "price": "60",
         "category": "手工蛋餅",
         "pic": "/logo.png"
@@ -318,8 +318,8 @@
     {
         "id": 36,
         "name": "好食紅茶",
-        "information": "",
-        "short_information": "好吃",
+        "information": "經典台式紅茶，茶香濃郁不苦澀，搭配任何餐點都超對味",
+        "short_information": "經典台式紅茶，茶香...",
         "price": "20",
         "category": "好好喝",
         "pic": "/logo.png"
@@ -327,8 +327,8 @@
     {
         "id": 37,
         "name": "好食奶茶",
-        "information": "",
-        "short_information": "好吃",
+        "information": "香濃奶香結合紅茶的微澀回甘，甜而不膩的幸福滋味，讓人一喝就愛上。",
+        "short_information": "好香濃奶香結合紅茶...",
         "price": "25",
         "category": "好好喝",
         "pic": "/logo.png"
@@ -336,8 +336,8 @@
     {
         "id": 38,
         "name": "好食鮮奶茶",
-        "information": "",
-        "short_information": "好吃",
+        "information": "選用香濃鮮奶與紅茶完美比例調和，滑順口感中帶有濃厚茶香，喝起來超幸福。",
+        "short_information": "好選用香濃鮮奶與紅茶...",
         "price": "40",
         "category": "好好喝",
         "pic": "/logo.png"
@@ -345,8 +345,8 @@
     {
         "id": 39,
         "name": "好食可可",
-        "information": "",
-        "short_information": "好吃",
+        "information": "香濃可可粉與鮮奶結合，每一口都像融化在巧克力裡，甜甜的最療癒～",
+        "short_information": "香濃可可粉與鮮奶結合...",
         "price": "40",
         "category": "好好喝",
         "pic": "/logo.png"
@@ -354,8 +354,8 @@
     {
         "id": 40,
         "name": "高大鮮乳",
-        "information": "",
-        "short_information": "好吃",
+        "information": "使用人氣高大牧場鮮乳，奶香濃郁、口感純淨，是最純粹的美味選擇。",
+        "short_information": "好使用人氣高大牧場鮮...",
         "price": "50",
         "category": "好好喝",
         "pic": "/logo.png"
@@ -363,8 +363,8 @@
     {
         "id": 41,
         "name": "美式黑咖啡",
-        "information": "",
-        "short_information": "好吃",
+        "information": "經典美式黑咖啡，回甘不苦、香氣十足，是醒腦與沉思的完美良伴。",
+        "short_information": "好經典美式黑咖啡...",
         "price": "40",
         "category": "好好喝",
         "pic": "/logo.png"
@@ -372,8 +372,8 @@
     {
         "id": 42,
         "name": "好食特調",
-        "information": "",
-        "short_information": "好吃",
+        "information": "店家特製神秘飲品，茶香與果香融合，每一口都有驚喜，值得一試的隱藏版風味！",
+        "short_information": "好店家特製神秘飲品...",
         "price": "45",
         "category": "好好喝",
         "pic": "/logo.png"
@@ -381,8 +381,8 @@
     {
         "id": 43,
         "name": "好食鴛鴦",
-        "information": "",
-        "short_information": "好吃",
+        "information": "紅茶與咖啡的雙重奏，香濃又順口，層次感十足，是經典中的經典。",
+        "short_information": "紅茶與咖啡的雙重奏...",
         "price": "50",
         "category": "好好喝",
         "pic": "/logo.png"
@@ -390,8 +390,8 @@
     {
         "id": 44,
         "name": "拿鐵咖啡",
-        "information": "",
-        "short_information": "好吃",
+        "information": "濃縮咖啡與滑順牛奶的絕妙結合，香氣濃郁、奶香柔和，是早晨最療癒的開始。",
+        "short_information": "好濃縮咖啡與滑順牛...",
         "price": "60",
         "category": "好好喝",
         "pic": "/logo.png"
@@ -399,8 +399,8 @@
     {
         "id": 45,
         "name": "可樂、雪碧",
-        "information": "",
-        "short_information": "好吃",
+        "information": "經典氣泡飲，沁涼暢快，是搭配鹹食的神隊友，怎麼喝都對味",
+        "short_information": "經典氣泡飲，沁涼暢...",
         "price": "30",
         "category": "好好喝",
         "pic": "/好好喝/可樂、雪碧.png"
@@ -408,8 +408,8 @@
     {
         "id": 46,
         "name": "番茄義大利肉醬",
-        "information": "",
-        "short_information": "好吃",
+        "information": "經典番茄紅醬搭配香煎絞肉,酸甜濃郁、麵條Q彈,每一口都是義式風味的溫柔擁抱",
+        "short_information": "經典番茄紅醬搭配香...",
         "price": "65",
         "category": "好食Pasta",
         "pic": "/logo.png"
@@ -417,8 +417,8 @@
     {
         "id": 47,
         "name": "奶油玉米白醬",
-        "information": "",
-        "short_information": "好吃",
+        "information": "濃郁奶油白醬與甜甜玉米粒完美融合，滑順香濃，是小朋友也超愛的溫暖系口味。",
+        "short_information": "濃郁奶油白醬與甜甜...",
         "price": "70",
         "category": "好食Pasta",
         "pic": "/logo.png"
@@ -426,8 +426,8 @@
     {
         "id": 48,
         "name": "鮭魚青醬",
-        "information": "",
-        "short_information": "好吃",
+        "information": "香濃青醬搭配厚實鮭魚塊，清新中帶著鮮美，義式靈魂在嘴裡綻放！。",
+        "short_information": "香濃青醬搭配厚實鮭...",
         "price": "75",
         "category": "好食Pasta",
         "pic": "/logo.png"
@@ -435,8 +435,8 @@
     {
         "id": 49,
         "name": "好球開打",
-        "information": "",
-        "short_information": "好吃",
+        "information": "元氣滿滿的活力組合，香脆主餐搭配經典配料，像場精彩開場球賽，讓味蕾準備熱血登場。",
+        "short_information": "元氣滿滿的活力組合...",
         "price": "100",
         "category": "好食組合",
         "pic": "/logo.png"
@@ -444,8 +444,8 @@
     {
         "id": 50,
         "name": "爵士饗宴",
-        "information": "",
-        "short_information": "好吃",
+        "information": "如同一場輕鬆的爵士音樂會，餐點搭配溫柔又不失個性，讓你一口接一口享受慢活時光。",
+        "short_information": "如同一場輕鬆的爵士...",
         "price": "100",
         "category": "好食組合",
         "pic": "/logo.png"
@@ -453,8 +453,8 @@
     {
         "id": 51,
         "name": "法式香頌",
-        "information": "",
-        "short_information": "好吃",
+        "information": "濃濃法式情調的美味搭配，優雅又浪漫，每一口都是巴黎街頭的味道～",
+        "short_information": "好濃濃法式情調的美味...",
         "price": "100",
         "category": "好食組合",
         "pic": "/logo.png"
@@ -462,8 +462,8 @@
     {
         "id": 52,
         "name": "盛夏派對",
-        "information": "",
-        "short_information": "好吃",
+        "information": "繽紛豐富的夏日風味組合，清爽開胃又帶點趣味，就像陽光沙灘上的快樂派對。",
+        "short_information": "繽紛豐富的夏日風...",
         "price": "100",
         "category": "好食組合",
         "pic": "/logo.png"
@@ -471,8 +471,8 @@
     {
         "id": 53,
         "name": "美好食光",
-        "information": "",
-        "short_information": "好吃",
+        "information": "集結招牌人氣品項，無論早晨或午後，都能擁有屬於你的美好食光時刻～",
+        "short_information": "好集結招牌人氣品項...",
         "price": "100",
         "category": "好食組合",
         "pic": "/logo.png"

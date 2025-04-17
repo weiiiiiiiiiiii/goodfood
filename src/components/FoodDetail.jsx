@@ -35,7 +35,7 @@ function FoodDetail({ food }) {
 
 
                     <div className="w-full px-4 flex justify-start items-center -mt-3">
-                        <p className="w-[20rem] mx-[3rem] text-[1.3rem]">{food.information}</p>
+                        <p className="w-[30rem] mx-[3rem] text-[1.3rem] text-left">{food.information}</p>
                         <button className="border h-[2.8rem] rounded-sm px-[0.7rem] text-[1rem] -ml-[1.5rem] bg-[#D9D9D9] text-[#424242] border-[#424242] transition-all duration-400 hover:bg-gray-300 hover:border-none hover:text-white cursor-pointer">詳細資訊</button>
                     </div>
 
