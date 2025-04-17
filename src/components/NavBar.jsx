@@ -15,7 +15,9 @@ function NavBar() {
         { to: "/breakfast/category/好食組合", label: "好食組合" },
     ];
 
+    
     const location = useLocation();
+    const currentInfo = navbarcontent.find(item => item.to === location.pathname)?.info;
     const NavbarContent = () => (
         <div className="flex flex-col md:flex-row md:justify-around space-x-4 lg:space-x-6" >
 
@@ -30,22 +32,22 @@ function NavBar() {
                     >
                         {label}
                     </NavLink>
-                    {location.pathname === "/food/category/vitality" && to === "/food/category/vitality" && info && (
-                        <p className="mt-2 text-sm text-gray-500">{info}</p>
-                    )}
                 </div>
             ))}
-
-            { }
 
         </div>
     );
 
     return (
         <>
-            <div className="relative z-10">
-                <div className="hidden md:flex justify-around mt-3 pb-5 bg-white/50 backdrop-blur-md mb-5">
+            <div className="z-10">
+                <div className="hidden md:flex justify-around mt-3 pb-5 bg-white/50 backdrop-blur-md mb-5 relative">
                     <NavbarContent />
+                    {currentInfo && (
+                        <div className="absolute bottom-0 text-center">
+                            {currentInfo}
+                        </div>
+                    )}
                 </div>
             </div>
 
@@ -62,6 +64,11 @@ function NavBar() {
                     <div className="pt-20">
                         <h2 className="bg-green-100 bg-opacity-50 text-xl font-bold pt-1 pb-1 mb-3">CATEGORY</h2>
                         <NavbarContent />
+                        {currentInfo && (
+                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-2 bg-white/80 backdrop-blur-md rounded px-4 py-2 text-sm text-gray-800 shadow-lg z-50">
+                            {currentInfo}
+                        </div>
+                    )}
                     </div>
 
                 </div>

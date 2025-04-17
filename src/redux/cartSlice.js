@@ -7,10 +7,10 @@ const cartSlice = createSlice({
     reducers: {
         addCartItems: (state, action) => {
             const item = action.payload;
-            const book = state.cartItems.find((x) => x.ID === item.ID);
-            if (!!book) {
+            const food = state.cartItems.find((x) => x.id === item.id);
+            if (!!food) {
                 const cartItems = state.cartItems.map((x) =>
-                    x.ID === book.ID ? item : x
+                    x.id === food.id ? item : x
                 );
                 state.cartItems = cartItems;
             }

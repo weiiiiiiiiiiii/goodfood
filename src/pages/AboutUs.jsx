@@ -43,7 +43,9 @@ function AboutUs() {
                             Rice
                         </p>
                         <p className="pt-2">
-                            作者的話
+                            最喜歡薯餅塔+紅茶 <br />
+                            設計美感0的人類<br />
+                            
                         </p>
                     </div>
                 </div>
