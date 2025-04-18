@@ -7,7 +7,7 @@ function FoodItems({ food }) {
                 <section className="pt-2 md:px-5 lg:px-4">
                     <div className="rounded-sm my-3 md:mx-1 lg:my-10 lg:mx-4 bg-[#EAFFEA] shadow-[0_8px_10px_gray] transform transition-transform duration-300 hover:scale-102">
                         <Link to={`/breakfast/id/${food.id}`}>
-                            <img className="rounded-t-sm bg-white p-3 w-full" src={food.pic} alt={food.name} />
+                            <img className="rounded-t-sm bg-white p-3 w-full h-full" src={food.pic} alt={food.name} />
                             <div className="text-center py-2 px-3">
                                 <h1 className="font-bold text-lg">
                                     {food.name}
