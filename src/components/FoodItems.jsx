@@ -4,7 +4,7 @@ function FoodItems({ food }) {
     return (
         <>
             <div className="hidden md:flex">
-                <section className="pt-2 md:px-5 lg:px-4">
+                <section className="pt-2 md:px-5 lg:px-4 w-full h-full">
                     <div className="rounded-sm my-3 md:mx-1 lg:my-10 lg:mx-4 bg-[#EAFFEA] shadow-[0_8px_10px_gray] transform transition-transform duration-300 hover:scale-102">
                         <Link to={`/breakfast/id/${food.id}`}>
                             <img className="rounded-t-sm bg-white p-3 w-full h-full" src={food.pic} alt={food.name} />
