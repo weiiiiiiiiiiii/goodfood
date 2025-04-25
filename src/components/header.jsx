@@ -3,16 +3,20 @@ import ShoppingCart from "./ShoppingCart"
 
 function Header({ title }) {
     return (
-        <header className="text-3xl flex flex-col items-center leading-28">
-
-            <Link to='/'>
-                <h2 className="font-bold">{title}</h2>
-            </Link>
-            <ShoppingCart/>
-            <hr className="w-25 border-3 rounded-lg mb-6" />
         
+        <header className="bg-[#fbf6eb] h-[5rem] flex items-center">
+            {/* logo 標題*/}
+            <img src="/logo.png" alt="logo"
+                className="h-[3.8rem] pl-[6rem] pr-[0.5rem] "
+            />
+            <h1 className="text-[2rem] font-bold">{title}</h1>
+
+            {/*  */}
+            <ShoppingCart />
+
 
         </header>
+
     )
 }
 

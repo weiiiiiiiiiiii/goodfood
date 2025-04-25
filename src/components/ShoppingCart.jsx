@@ -20,7 +20,7 @@ export default function ShoppingCart() {
         <>
             <div
                 onClick={toggleModal}
-                className="inline-block absolute top-10 right-5 md:right-10 cursor-pointer"
+                className="inline-block absolute cursor-pointer right-[6rem]"
             >
                 <div className="indicator flex flex-col items-center text-center px-3">
                     {count > 0 && <span className="indicator-item badge bg-purple-400 text-white">
@@ -28,7 +28,7 @@ export default function ShoppingCart() {
                     </span>}
                     <ShoppingIcon />
                 </div>
-                <p className="text-xs opacity-60 mt-2">Shopping Bag</p>
+                <p className="text-xs opacity-60 mt-2">購物車</p>
             </div>
             <BasketModal
                 isOpen={isOpen}
