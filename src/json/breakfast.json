@@ -4,7 +4,7 @@
         "name": "薯餅塔",
         "information": "金黃酥脆的薯餅搭配濃郁醬料，層層堆疊，入口滿滿幸福感。",
         "short_information": "金黃酥脆的薯餅搭配濃...",
-        "price": "50",
+        "price": "55",
         "category": "好好食小點心",
         "pic": "/小點心/薯餅塔.png"
     },
@@ -41,7 +41,7 @@
         "name": "泡菜燒肉",
         "information": "韓式泡菜與香煎燒肉結合，辣中帶香，手工蛋餅也能這麼過癮。",
         "short_information": "韓式泡菜與香煎燒肉結...",
-        "price": "60",
+        "price": "65",
         "category": "手工蛋餅",
         "pic": "/logo.png"
     },
@@ -50,7 +50,7 @@
         "name": "香薯乳酪",
         "information": "香濃乳酪與蛋餅完美融合，口感綿滑順口，甜鹹交錯剛剛好。",
         "short_information": "香濃乳酪與蛋餅完美融...",
-        "price": "60",
+        "price": "65",
         "category": "手工蛋餅",
         "pic": "/logo.png"
     },
@@ -266,7 +266,7 @@
         "name": "五花培根",
         "information": "經典五花肉搭配鹹香培根，肉香十足、香氣四溢，是早餐界的重量級選手。",
         "short_information": "經典五花肉搭配鹹...",
-        "price": "35",
+        "price": "40",
         "category": "手工蛋餅",
         "pic": "/logo.png"
     },
@@ -275,7 +275,7 @@
         "name": "乳酪起司",
         "information": "香濃乳酪加上融化起司，雙倍濃郁，起司控的夢幻蛋餅款。",
         "short_information": "香濃乳酪加上融化起司...",
-        "price": "40",
+        "price": "45",
         "category": "手工蛋餅",
         "pic": "/蛋餅/乳酪起司.png"
     },
@@ -284,7 +284,7 @@
         "name": "好食鮪魚",
         "information": "經典鮪魚餡搭配手工蛋餅皮，香氣十足、口感滑順，是不敗的早餐首選。",
         "short_information": "經典鮪魚餡搭配手工蛋...",
-        "price": "40",
+        "price": "45",
         "category": "手工蛋餅",
         "pic": "/logo.png"
     },
@@ -293,7 +293,7 @@
         "name": "洋蔥燻雞",
         "information": "煙燻雞肉融合洋蔥甜味，鹹香不膩，咬下去超有層次。",
         "short_information": "煙燻雞肉融合洋蔥甜...",
-        "price": "40",
+        "price": "45",
         "category": "手工蛋餅",
         "pic": "/logo.png"
     },
@@ -302,7 +302,7 @@
         "name": "泡菜培根",
         "information": "韓式泡菜微辣開胃，搭配香脆培根，酸辣交織的美味讓人上癮。",
         "short_information": "好韓式泡菜微辣開...",
-        "price": "50",
+        "price": "55",
         "category": "手工蛋餅",
         "pic": "/logo.png"
     },
@@ -311,7 +311,7 @@
         "name": "芋泥起司",
         "information": "綿密芋泥與濃郁起司完美融合，鹹甜交錯，每一口都像在吃甜點。",
         "short_information": "綿密芋泥與濃郁起司完...",
-        "price": "60",
+        "price": "65",
         "category": "手工蛋餅",
         "pic": "/logo.png"
     },
@@ -446,7 +446,7 @@
         "name": "爵士饗宴",
         "information": "如同一場輕鬆的爵士音樂會，餐點搭配溫柔又不失個性，讓你一口接一口享受慢活時光。",
         "short_information": "如同一場輕鬆的爵士...",
-        "price": "100",
+        "price": "105",
         "category": "好食組合",
         "pic": "/logo.png"
     },
@@ -464,16 +464,16 @@
         "name": "盛夏派對",
         "information": "繽紛豐富的夏日風味組合，清爽開胃又帶點趣味，就像陽光沙灘上的快樂派對。",
         "short_information": "繽紛豐富的夏日風...",
-        "price": "100",
+        "price": "105",
         "category": "好食組合",
-        "pic": "/logo.png"
+        "pic": "/組合/盛夏派對.png"
     },
     {
         "id": 53,
         "name": "美好食光",
         "information": "集結招牌人氣品項，無論早晨或午後，都能擁有屬於你的美好食光時刻～",
         "short_information": "集結招牌人氣品項...",
-        "price": "100",
+        "price": "105",
         "category": "好食組合",
         "pic": "/logo.png"
     }
