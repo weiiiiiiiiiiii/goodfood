@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Concept() {
     return (
         <>
-            <div className="relative pt-[10rem] h-[40rem] font-bold mb-[15rem]">
+            <div className="relative pt-[10rem] h-[40rem] font-bold mb-[8rem]">
 
                 <div className="absolute inset-0 bg-[url('/背景.jpg')] h-[40rem] bg-cover bg-center z-0">
                 </div>

@@ -1,0 +1,11 @@
+.custom-swiper {
+  position: relative !important;
+  padding-bottom: 40px !important;
+  /* 預留給 scrollbar 的空間 */
+}
+
+.custom-swiper .swiper-scrollbar {
+  bottom: 10px !important;
+  /* 與 slide 的距離 */
+}
+
