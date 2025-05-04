@@ -1,10 +1,11 @@
 import breakfast from "../json/breakfast.json"
 
-import FoodList from "../components/FoodList";
 import Header from "../components/header";
 import Footer from "../components/footer";
 // import NavBar from "../components/NavBar";
 import Concept from "../components/Concept";
+import HotList from "../components/HotList/HotList";
+import Environment from "../components/Environment/Environment";
 
 
 function Home() {
@@ -14,7 +15,8 @@ function Home() {
                 title="好食 Breakfast"
             />
             <Concept />
-            <FoodList breakfast={breakfast}/>
+            <Environment />
+            <HotList breakfast={breakfast}/>
             <Footer/>
         </div>
 

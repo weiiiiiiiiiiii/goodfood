@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @source "./pages";
 @source "./components";
 @plugin "daisyui"{
