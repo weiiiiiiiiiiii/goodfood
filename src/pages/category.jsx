@@ -9,12 +9,13 @@ import NavBar from "../components/NavBar";
 
 function Category() {
     const { foodcategory } = useParams();
-    const _breakfast = breakfast.filter(
-        x => x?.category?.toUpperCase() === foodcategory.toUpperCase()
-    );
-    
-    const title = _.startCase(foodcategory);
 
+    const _breakfast = foodcategory
+        ? breakfast.filter(x => x?.category?.toUpperCase() === foodcategory.toUpperCase())
+        : breakfast;
+    
+    // 如果有foodcategory，使用它来转换为标题；如果没有，使用 "All" 作为标题
+    const title = foodcategory ? _.startCase(foodcategory) : "All";
 
     return (
         <div>

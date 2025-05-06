@@ -52,7 +52,7 @@ function NavBar() {
             </div>
 
             <div className="drawer md:hidden">
-                <input id="drawer-toggle" type="checkbox" className="drawer-toggle" checked={isOpen} />
+                <input id="drawer-toggle" type="checkbox" className="drawer-toggle" checked={isOpen} onChange={() => setIsOpen(!isOpen)}/>
                 <HamMenu
                     id="drawer-toggle"
                     className="z-1000 absolute drawer-toggle left-0 mt-6 -translate-y-45"
