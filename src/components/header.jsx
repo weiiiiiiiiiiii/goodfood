@@ -12,9 +12,12 @@ function Header({ title }) {
                 />
             </Link>
             <h1 className="text-[2rem] font-bold">{title}</h1>
-            <div className="text-right border w-230">
-                <Link to=""><h1>商品列表</h1></Link>
-                
+            <div className="absolute right-[12rem] flex gap-[2rem]">
+                <div>
+                    <Link to="/Product"><h1>商品列表</h1></Link>
+                </div>
+
+                <Link to=""><h1>登入列表</h1></Link>
             </div>
 
             {/*  */}

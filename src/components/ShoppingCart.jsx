@@ -23,12 +23,11 @@ export default function ShoppingCart() {
                 className="inline-block absolute cursor-pointer right-[6rem]"
             >
                 <div className="indicator flex flex-col items-center text-center px-3">
-                    {count > 0 && <span className="indicator-item badge bg-purple-400 text-white">
+                    {count > 0 && <span className="indicator-item badge bg-[#F9E1E1] text-black">
                         {count}
                     </span>}
                     <ShoppingIcon />
                 </div>
-                <p className="text-xs opacity-60 mt-2">購物車</p>
             </div>
             <BasketModal
                 isOpen={isOpen}

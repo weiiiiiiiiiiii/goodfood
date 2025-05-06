@@ -2,7 +2,6 @@ import breakfast from "../json/breakfast.json"
 
 import Header from "../components/header";
 import Footer from "../components/footer";
-// import NavBar from "../components/NavBar";
 import Concept from "../components/Concept";
 import HotList from "../components/HotList/HotList";
 import Environment from "../components/Environment/Environment";

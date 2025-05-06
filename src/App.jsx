@@ -11,6 +11,7 @@ import AboutUs from './pages/AboutUs'
 import ScrollToTop from './ScrollToTop'
 import store from './redux/store'
 import { Provider } from 'react-redux'
+import Product from './pages/Product'
 
 
 
@@ -30,6 +31,7 @@ function App() {
               <ScrollToTop />
               <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/Product" element={<Product />} />
                 <Route path="/AboutUs" element={<AboutUs />} />
                 <Route path="breakfast">
                   <Route path="/breakfast/category/:foodcategory" element={<Category />} />
