@@ -3,7 +3,7 @@ import { getProductById, getProducts, getProductsByCategory} from "@/api/fireSto
 
 export const useProducts = () => {
    return useQuery({
-    queryKey: ['food'], 
+    queryKey: ['breakfast'], 
     queryFn: getProducts
   });
  };

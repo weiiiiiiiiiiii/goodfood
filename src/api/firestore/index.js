@@ -27,14 +27,14 @@ export const feedProducts = async () => {
 };
 
 export const getProducts = async () => {
-    let querySnapshot = await getDocs(foodCollection);
+    const querySnapshot = await getDocs(foodCollection);
 
     // Convert the query to a json array.
     let result = [];
     querySnapshot.forEach(async (food) => {
         await result.push(food.data());
     });
-    console.log({ result });
+    // console.log({ result });
     return result;
 };
 
@@ -51,7 +51,7 @@ export const getProductsByCategory = async ({ queryKey }) => {
         foodCollection,
         where("category", "==", category.toUpperCase())
     );
-    let querySnapshot = await getDocs(q);
+    const querySnapshot = await getDocs(q);
     // Convert the query to a json array.
     let result = [];
     querySnapshot.forEach(async (food) => {
