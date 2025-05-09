@@ -4,6 +4,8 @@ import HamMenu from "./HamMenu"
 import { useState } from "react";
 
 function Header({ title }) {
+
+    // 給漢堡選單使用(漢堡選單會包含商品列表和登入，所以寫在header裡)
     const [isOpen, setIsOpen] = useState(false);
 
     const navbarcontent = [
