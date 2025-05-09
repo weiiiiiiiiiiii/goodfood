@@ -35,11 +35,10 @@ export default function Environment() {
                         slidesPerView={1}
 
                     >
-                        <SwiperSlide><img className=" w-110 md:w-200 lg:w-180" src="/環境/環境1.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className=" w-110 md:w-200 lg:w-180" src="/環境/環境1.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className=" w-110 md:w-200 lg:w-180" src="/環境/環境1.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className=" w-110 md:w-200 lg:w-180" src="/環境/環境1.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className=" w-110 md:w-200 lg:w-180" src="/環境/環境1.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className=" w-110 md:w-200 lg:w-180 h-80 md:h-130 lg:h-115" src="/環境/環境1.JPG" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className=" w-110 md:w-200 lg:w-180 h-80 md:h-130 lg:h-115" src="/環境/環境2.JPG" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className=" w-110 md:w-200 lg:w-180 h-80 md:h-130 lg:h-115" src="/環境/環境3.JPG" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className=" w-110 md:w-200 lg:w-180 h-80 md:h-130 lg:h-115" src="/環境/環境4.JPG" alt="" /></SwiperSlide>
 
                         <div className="swiper-button-prev" />
                         <div className="swiper-button-next" />
