@@ -17,7 +17,7 @@ function Footer() {
                     <div className="grid grid-rows-3 text-[15px] text-center md:text-base md:text-left items-center">
                         <Link to="/AboutUs" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_black]">關於我們</Link>
                         <Link to="/" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_black]">會員登入</Link>
-                        <Link to="/" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_black]">地圖探索</Link>
+                        <Link to="/Map" className="lg:w-20 hover:underline underline-offset-2 hover:[text-shadow:0px_0px_30px_black]">地圖探索</Link>
                     </div>
                 </div>
                 <div className="grid grid-rows-3 items-center text-center mt-10 md:mt-0 md:text-left md:pl-15 ">

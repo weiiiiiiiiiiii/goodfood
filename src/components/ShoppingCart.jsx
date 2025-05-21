@@ -20,7 +20,7 @@ export default function ShoppingCart() {
         <>
             <div
                 onClick={toggleModal}
-                className="inline-block absolute cursor-pointer right-[6rem]"
+                className="inline-block absolute cursor-pointer right-[2rem] md:right-[6rem]"
             >
                 <div className="indicator flex flex-col items-center text-center px-3">
                     {count > 0 && <span className="indicator-item badge bg-[#F9E1E1] text-black">

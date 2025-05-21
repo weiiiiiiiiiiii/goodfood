@@ -1,4 +1,4 @@
-import { NavLink } from "react-router"
+import { NavLink} from "react-router"
 
 function NavBar() {
 
@@ -40,7 +40,6 @@ function NavBar() {
                 </div>
             </div>
 
-            
         </>
     )
 }
