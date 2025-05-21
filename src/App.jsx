@@ -4,9 +4,10 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 import './App.css'
 import Home from './pages/home'
 import Detail from './pages/detailpage'
-import Category from './pages/category'
+import Category from './pages/Category'
 import AboutUs from './pages/AboutUs'
 import Product from './pages/Product'
+import Map from './pages/Map/Map'
 
 
 import ScrollToTop from './ScrollToTop'
@@ -38,6 +39,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/Product" element={<Product />} />
                     <Route path="/AboutUs" element={<AboutUs />} />
+                    <Route path="/Map" element={<Map />} />
                     <Route path="breakfast">
                       <Route path="/breakfast/category/:foodcategory" element={<Category />} />
                       <Route path="id/:foodid" element={<Detail />} />
