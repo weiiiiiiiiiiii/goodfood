@@ -5,11 +5,16 @@ import { Link } from "react-router";
 
 
 
+
+
+
+
 export default function Ham() {
     // 漢堡選單元素
     const [isOpen, setIsOpen] = useState(false);
     const dropdownRef = useRef(null);
     const [showDropdown, setShowDropdown] = useState(false);
+
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -21,6 +26,7 @@ export default function Ham() {
         return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
 
+
     const navbarcontent = [
         { to: "/breakfast/category/元氣好食", label: "元氣好食" },
         { to: "/breakfast/category/好好食小點心", label: "好好食小點心" },
@@ -30,6 +36,7 @@ export default function Ham() {
         { to: "/breakfast/category/好食Pasta", label: "好食Pasta" },
         { to: "/breakfast/category/好食組合", label: "好食組合" },
     ];
+
 
     return (
         <>
@@ -46,17 +53,23 @@ export default function Ham() {
                     <div className="pt-20 z-11">
                         <h2 className="bg-green-100 bg-opacity-50 text-xl font-bold pt-1 pb-1 mb-5 w-[15rem]">CATEGORY</h2>
 
+
                         <div className="flex flex-col text-center px-10">
-                            <div className="relative inline-block" ref={dropdownRef}>
-                                <Link to="/Product" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green] pl-5 py-3">商品列表</Link>
+                            <Link to="/" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green] py-4">首頁</Link>
+                            <div className="relative inline-block " ref={dropdownRef}>
+
+
+                                <Link to="/Product" className="cursor-pointer text-center hover:[text-shadow:0px_0px_30px_green] pl-5 py-4">商品列表</Link>
+
 
                                 {/* 倒三角按鈕：控制選單 */}
                                 <button
                                     onClick={() => setShowDropdown(!showDropdown)}
-                                    className="ml-2 text-black focus:outline-none"
+                                    className="ml-2 text-black focus:outline-none hover:scale-130"
                                 >
                                     ▼
                                 </button>
+
 
                                 {/* 下拉選單 */}
                                 {showDropdown && (
@@ -69,12 +82,14 @@ export default function Ham() {
                                     </ul>
                                 )}
                             </div>
-                            <Link to="/" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green]  py-5">登入列表</Link>
+                            <Link to="/" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green]  py-4">登入列表</Link>
                         </div>
                     </div>
                 </div>
             </div >
 
+
         </>
     )
 }
+

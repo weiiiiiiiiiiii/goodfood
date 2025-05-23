@@ -1,13 +1,14 @@
 [
     {
         "id": 1,
-        "id2":1,
+        "id2": 1,
         "name": "薯餅塔",
         "information": "金黃酥脆的薯餅搭配濃郁醬料，層層堆疊，入口滿滿幸福感。",
         "short_information": "金黃酥脆的薯餅搭配濃...",
         "price": "55",
         "category": "好好食小點心",
-        "pic": "/小點心/薯餅塔.png"
+        "pic": "/小點心/薯餅塔.png",
+        "detail": "內含馬鈴薯、起司、蜂蜜芥末醬、番茄醬"
     },
     {
         "id": 2,
@@ -16,48 +17,52 @@
         "short_information": "外酥內軟的黃金脆薯...",
         "price": "30",
         "category": "好好食小點心",
-        "pic": "/小點心/脆薯.png"
+        "pic": "/小點心/脆薯.png",
+        "detail":""
     },
     {
         "id": 3,
-        "id2":2,
+        "id2": 2,
         "name": "冰火波羅包",
         "information": "酥香波蘿包夾入冰涼奶油，一口咬下冰火交融，甜而不膩超療癒。",
         "short_information": "酥香波蘿包夾入冰涼奶...",
         "price": "35",
         "category": "好好食小點心",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 4,
-        "id2":3,
+        "id2": 3,
         "name": "糖霜蜂蜜",
         "information": "酥鬆丹麥淋上香甜糖霜與蜂蜜，口感多層次，甜香迷人。",
         "short_information": "酥鬆丹麥淋上香甜糖霜...",
         "price": "40",
         "category": "法式丹麥",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
-
     {
         "id": 5,
-        "id2":4,
+        "id2": 4,
         "name": "泡菜燒肉",
         "information": "韓式泡菜與香煎燒肉結合，辣中帶香，手工蛋餅也能這麼過癮。",
         "short_information": "韓式泡菜與香煎燒肉結...",
         "price": "65",
         "category": "手工蛋餅",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 6,
-        "id2":6,
+        "id2": 6,
         "name": "香薯乳酪",
         "information": "香濃乳酪與蛋餅完美融合，口感綿滑順口，甜鹹交錯剛剛好。",
         "short_information": "香濃乳酪與蛋餅完美融...",
         "price": "65",
         "category": "手工蛋餅",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 7,
@@ -66,7 +71,8 @@
         "short_information": "經典煙燻火腿片，鹹香...",
         "price": "40",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/煙燻火腿.png"
+        "pic": "/元氣好食-材料/煙燻火腿.png",
+        "detail":""
     },
     {
         "id": 8,
@@ -75,7 +81,8 @@
         "short_information": "五花培根煎至微焦，香...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/五花培根.png"
+        "pic": "/元氣好食-材料/五花培根.png",
+        "detail":""
     },
     {
         "id": 9,
@@ -84,7 +91,8 @@
         "short_information": "可愛造型薯餅，酥脆討...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/微笑薯餅.png"
+        "pic": "/元氣好食-材料/微笑薯餅.png",
+        "detail":""
     },
     {
         "id": 10,
@@ -93,7 +101,8 @@
         "short_information": "外皮金黃酥脆，裡頭多...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/酥脆香雞.png"
+        "pic": "/元氣好食-材料/酥脆香雞.png",
+        "detail":""
     },
     {
         "id": 11,
@@ -102,7 +111,8 @@
         "short_information": "燒肉醃製後的甜美滋味...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/醃漬燒肉.png"
+        "pic": "/元氣好食-材料/醃漬燒肉.png",
+        "detail":""
     },
     {
         "id": 12,
@@ -111,7 +121,8 @@
         "short_information": "燻雞的美妙風味，日式...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/洋蔥燻雞.png"
+        "pic": "/元氣好食-材料/洋蔥燻雞.png",
+        "detail":""
     },
     {
         "id": 13,
@@ -120,7 +131,8 @@
         "short_information": "嚴選鮪魚拌入特製醬料...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/好食鮪魚.png"
+        "pic": "/元氣好食-材料/好食鮪魚.png",
+        "detail":""
     },
     {
         "id": 14,
@@ -129,7 +141,8 @@
         "short_information": "精選牛腓力煎至恰到好...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/嫩煎腓力.png"
+        "pic": "/元氣好食-材料/嫩煎腓力.png",
+        "detail":""
     },
     {
         "id": 15,
@@ -138,17 +151,19 @@
         "short_information": "道地德式香腸，脆皮多..",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/德式香腸.png"
+        "pic": "/元氣好食-材料/德式香腸.png",
+        "detail":""
     },
     {
         "id": 16,
-        "id2":7,
+        "id2": 7,
         "name": "咔啦雞腿",
         "information": "外酥內嫩的咔啦雞腿，鮮嫩多汁，香氣四溢，咬一口就停不下來。",
         "short_information": "外酥內嫩的咔啦雞腿...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/卡拉雞腿.png"
+        "pic": "/元氣好食-材料/卡拉雞腿.png",
+        "detail":""
     },
     {
         "id": 17,
@@ -157,7 +172,8 @@
         "short_information": "手打漢堡肉排，肉香濃...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/漢堡肉排.png"
+        "pic": "/元氣好食-材料/漢堡肉排.png",
+        "detail":""
     },
     {
         "id": 18,
@@ -166,7 +182,8 @@
         "short_information": "多種新鮮蔬菜爽口搭配...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/輕食蔬菜.png"
+        "pic": "/元氣好食-材料/輕食蔬菜.png",
+        "detail":""
     },
     {
         "id": 19,
@@ -175,7 +192,8 @@
         "short_information": "檸檬香氣搭配酥炸雞...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/香檸雞柳.png"
+        "pic": "/元氣好食-材料/香檸雞柳.png",
+        "detail":""
     },
     {
         "id": 20,
@@ -184,7 +202,8 @@
         "short_information": "金黃酥脆外皮包裹著鮮...",
         "price": "",
         "category": "元氣好食",
-        "pic": "/元氣好食-材料/黃金鱈魚.png"
+        "pic": "/元氣好食-材料/黃金鱈魚.png",
+        "detail":""
     },
     {
         "id": 21,
@@ -193,7 +212,8 @@
         "short_information": "酥脆外皮、綿密內餡...",
         "price": "15",
         "category": "好好食小點心",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 22,
@@ -202,7 +222,8 @@
         "short_information": "外酥內嫩的經典炸雞...",
         "price": "30",
         "category": "好好食小點心",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 23,
@@ -211,7 +232,8 @@
         "short_information": "外皮香酥，內餡拉絲起...",
         "price": "35",
         "category": "好好食小點心",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 24,
@@ -220,7 +242,8 @@
         "short_information": "檸香四溢的雞柳條，清...",
         "price": "40",
         "category": "好好食小點心",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 25,
@@ -229,7 +252,8 @@
         "short_information": "手工現做捲餅，包裹...",
         "price": "50",
         "category": "好好食小點心",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 26,
@@ -238,7 +262,8 @@
         "short_information": "新鮮生菜搭配營養堅...",
         "price": "50",
         "category": "好好食小點心",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 27,
@@ -247,7 +272,8 @@
         "short_information": "香甜楓糖搭配酥脆堅...",
         "price": "40",
         "category": "法式丹麥",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 28,
@@ -256,7 +282,8 @@
         "short_information": "選用福源濃醇花生...",
         "price": "40",
         "category": "法式丹麥",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 29,
@@ -265,7 +292,8 @@
         "short_information": "濃郁巧克力加上甜蜜...",
         "price": "40",
         "category": "法式丹麥",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 30,
@@ -274,7 +302,8 @@
         "short_information": "經典五花肉搭配鹹...",
         "price": "40",
         "category": "手工蛋餅",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 31,
@@ -283,7 +312,8 @@
         "short_information": "香濃乳酪加上融化起司...",
         "price": "45",
         "category": "手工蛋餅",
-        "pic": "/蛋餅/乳酪起司.png"
+        "pic": "/蛋餅/乳酪起司.png",
+        "detail":""
     },
     {
         "id": 32,
@@ -292,7 +322,8 @@
         "short_information": "經典鮪魚餡搭配手工蛋...",
         "price": "45",
         "category": "手工蛋餅",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 33,
@@ -301,7 +332,8 @@
         "short_information": "煙燻雞肉融合洋蔥甜...",
         "price": "45",
         "category": "手工蛋餅",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 34,
@@ -310,7 +342,8 @@
         "short_information": "好韓式泡菜微辣開...",
         "price": "55",
         "category": "手工蛋餅",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 35,
@@ -319,7 +352,8 @@
         "short_information": "綿密芋泥與濃郁起司完...",
         "price": "65",
         "category": "手工蛋餅",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 36,
@@ -328,7 +362,8 @@
         "short_information": "經典台式紅茶，茶香...",
         "price": "20",
         "category": "好好喝",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 37,
@@ -337,7 +372,8 @@
         "short_information": "香濃奶香結合紅茶...",
         "price": "25",
         "category": "好好喝",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 38,
@@ -346,7 +382,8 @@
         "short_information": "選用香濃鮮奶與紅茶...",
         "price": "40",
         "category": "好好喝",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 39,
@@ -355,7 +392,8 @@
         "short_information": "香濃可可粉與鮮奶結合...",
         "price": "40",
         "category": "好好喝",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 40,
@@ -364,7 +402,8 @@
         "short_information": "使用人氣高大牧場鮮...",
         "price": "50",
         "category": "好好喝",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 41,
@@ -373,7 +412,8 @@
         "short_information": "經典美式黑咖啡...",
         "price": "40",
         "category": "好好喝",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 42,
@@ -382,7 +422,8 @@
         "short_information": "店家特製神秘飲品...",
         "price": "45",
         "category": "好好喝",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 43,
@@ -391,7 +432,8 @@
         "short_information": "紅茶與咖啡的雙重奏...",
         "price": "50",
         "category": "好好喝",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 44,
@@ -400,7 +442,8 @@
         "short_information": "濃縮咖啡與滑順牛...",
         "price": "60",
         "category": "好好喝",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 45,
@@ -409,7 +452,8 @@
         "short_information": "經典氣泡飲，沁涼暢...",
         "price": "30",
         "category": "好好喝",
-        "pic": "/好好喝/可樂、雪碧.png"
+        "pic": "/好好喝/可樂、雪碧.png",
+        "detail":""
     },
     {
         "id": 46,
@@ -418,7 +462,8 @@
         "short_information": "經典番茄紅醬搭配香...",
         "price": "65",
         "category": "好食Pasta",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 47,
@@ -427,7 +472,8 @@
         "short_information": "濃郁奶油白醬與甜甜...",
         "price": "70",
         "category": "好食Pasta",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 48,
@@ -436,7 +482,8 @@
         "short_information": "香濃青醬搭配厚實鮭...",
         "price": "75",
         "category": "好食Pasta",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 49,
@@ -445,7 +492,8 @@
         "short_information": "元氣滿滿的活力組合...",
         "price": "100",
         "category": "好食組合",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 50,
@@ -454,7 +502,8 @@
         "short_information": "如同一場輕鬆的爵士...",
         "price": "105",
         "category": "好食組合",
-        "pic": "/組合/爵士饗宴.png"
+        "pic": "/組合/爵士饗宴.png",
+        "detail":""
     },
     {
         "id": 51,
@@ -463,17 +512,19 @@
         "short_information": "濃濃法式情調的美味...",
         "price": "100",
         "category": "好食組合",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     },
     {
         "id": 52,
-        "id2":5,
+        "id2": 5,
         "name": "盛夏派對",
         "information": "繽紛豐富的夏日風味組合，清爽開胃又帶點趣味，就像陽光沙灘上的快樂派對。",
         "short_information": "繽紛豐富的夏日風...",
         "price": "105",
         "category": "好食組合",
-        "pic": "/組合/盛夏派對.png"
+        "pic": "/組合/盛夏派對.png",
+        "detail":""
     },
     {
         "id": 53,
@@ -482,6 +533,7 @@
         "short_information": "集結招牌人氣品項...",
         "price": "105",
         "category": "好食組合",
-        "pic": "/logo.png"
+        "pic": "/logo.png",
+        "detail":""
     }
 ]

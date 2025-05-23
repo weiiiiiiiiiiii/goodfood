@@ -3,14 +3,17 @@ import { addCartItems, removeCartItems, selectCartItems } from "../redux/cartSli
 import { Link } from "react-router";
 import { ShoppingBasket } from "lucide-react"
 
+
 function BasketModal({ isOpen, toggleModal }) {
     const dispatch = useDispatch();
     const cartItems = useSelector(selectCartItems);
+
 
     const handleCancel = () => toggleModal(!isOpen);
     const getTotalPrice = () => {
         return (cartItems.length > 0) ? cartItems.reduce((sum, item) => sum + item.price * item.qty, 0) : 0;
     };
+
 
     return (
         <>
@@ -22,7 +25,7 @@ function BasketModal({ isOpen, toggleModal }) {
                             <div className="text-cneter font-thin text-lg mt-10">Cart is empty</div>
                         ) : (
                             cartItems.map(item => (
-                                <li key={item.id} className="flex justify-between items-center py-4 mb-4 border-gray-300">
+                                <li key={item.id} className="border-b  flex justify-between items-center py-4 mb-4 border-gray-300">
                                     <Link to={`breakfast/id/${item.id}`} onClick={handleCancel}>
                                         <img className="max-w-16 flex-1 cursor-pointer" src={item.pic} alt={item.name} />
                                     </Link>
@@ -64,11 +67,13 @@ function BasketModal({ isOpen, toggleModal }) {
                             ))
                         )}
 
+
                         {/*total*/}
                         <div className="flex justify-between items-center mt-5">
                             <div className="font-semibold text-lg">總價 :</div>
                             <div className="font-bold text-right text-lg">${getTotalPrice()}</div>
                         </div>
+
 
                         {/*check*/}
                         <button
@@ -80,10 +85,12 @@ function BasketModal({ isOpen, toggleModal }) {
                             <span className="border-0 rounded-lg font-thin ml-3 text-black">START CHECKOUT</span>
                         </button>
 
+
                         {/*close*/}
                         <div className="absolute right-4 top-4 modal-action mt-4">
                             <button onClick={handleCancel} className="bg-gray-200 btn btn-sm font-thin hover:bg-gray-400">X</button>
                         </div>
+
 
                     </div>
                 </div>
@@ -91,6 +98,9 @@ function BasketModal({ isOpen, toggleModal }) {
         </>
     )
 
+
 }
 
+
 export default BasketModal
+
