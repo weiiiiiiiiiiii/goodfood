@@ -40,7 +40,7 @@ export default function Ham() {
 
     return (
         <>
-            {/* 手機頁面的排版+漢堡 (未完成)*/}
+            {/* 手機頁面的排版+漢堡 */}
             <div className="drawer md:hidden z-25">
                 <input id="drawer-toggle" type="checkbox" className="drawer-toggle" checked={isOpen} onChange={() => setIsOpen(!isOpen)} />
                 <HamMenu
@@ -65,7 +65,7 @@ export default function Ham() {
                                 {/* 倒三角按鈕：控制選單 */}
                                 <button
                                     onClick={() => setShowDropdown(!showDropdown)}
-                                    className="ml-2 text-black focus:outline-none hover:scale-130"
+                                    className="ml-2 text-black focus:outline-none hover:scale-130 cursor-pointer"
                                 >
                                     ▼
                                 </button>
