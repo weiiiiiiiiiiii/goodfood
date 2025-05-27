@@ -52,7 +52,7 @@ function Header({ title }) {
                     {/* 倒三角按鈕：控制選單 */}
                     <button
                         onClick={() => setShowDropdown(!showDropdown)}
-                        className="ml-2 text-black focus:outline-none hover:scale-130"
+                        className="ml-2 text-black focus:outline-none hover:scale-130 cursor-pointer"
                     >
                         ▼
                     </button>

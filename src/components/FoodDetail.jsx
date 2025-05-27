@@ -13,7 +13,28 @@ function FoodDetail({ food }) {
     const [isOpen, setIsOpen] = useState(false);
     const toggleModal = () => setIsOpen(!isOpen);
 
+    // 元氣好食選價格用select找到後根據品項增加價錢
+    const [selectedPrice, setSelectedPrice] = useState(Number(food.price));
+    const breadOptions = [
+        { name: '起士堡', extra: 0 },
+        { name: '馬芬堡', extra: 5 },
+        { name: '丹麥吐司', extra: 10 },
+        { name: '貝果', extra: 25 }
+    ];
 
+    // 好食pasta的價格更改
+    const pastaOptions = [
+        { name: '+培根 $35', extra: 35 },
+        { name: '+起士 $40', extra: 40 },
+        { name: '+鮪魚 $45', extra: 45 },
+        { name: '+燒肉 $45', extra: 45 },
+        { name: '+香腸 $55', extra: 55 },
+        { name: '+雞腿 $60', extra: 60 }
+    ];
+
+
+    // 讓品項名字根據按鈕做更動
+    const [selectedOption, setSelectedOption] = useState('');
 
     return (
         <>
@@ -34,14 +55,71 @@ function FoodDetail({ food }) {
                     </div>
 
 
-                    <div className="flex w-full ">
-                        <div className="w-full px-4 flex justify-start -mt-3 text-left pl-0 pl-[4rem]">
-                            <h3 className="w-[10rem] text-[2rem] font-semibold">{food.name}</h3>
+                    <div className="flex w-full">
+                        <div className="w-3/4 px-4 flex justify-start -mt-3 text-left pl-0 pl-[4rem] items-center ">
+                            <h3 className="w-auto text-[2rem] font-semibold">
+                                {food.name}
+                            </h3>
+                            <h4 className='text-[2rem] font-semibold'>
+                                {selectedOption ? ` -  ${selectedOption}` : ''}
+                            </h4>
                         </div>
-                        <div className="w-full px-4 ">
-                            <p className="pr-[4rem] text-right text-[#631616] font-md text-[1.2rem]"> ${food.price}NTD</p>
+                        {/* 價格根據select到的價格做變化 */}
+                        <div className="w-1/4 px-4">
+                            <p className="pr-[4rem] text-right text-[#631616] font-md text-[1.2rem]"> ${selectedPrice} NTD</p>
                         </div>
                     </div>
+
+                    {/* 元氣好食選麵包、加購的按鈕 */}
+                    {food.category === "元氣好食" && (
+                        <div className="flex gap-2 mt-2">
+                            {breadOptions.map(option => (
+                                <button
+                                    key={option.name}
+                                    className={`px-3 py-1 border rounded ${selectedOption === option.name ? 'bg-red-300 text-white' : 'bg-white hover:bg-red-200'
+                                        }`}
+                                    onClick={() => {
+                                        if (selectedOption === option.name) {
+                                            // 取消選擇 → 還原價格與名稱
+                                            setSelectedOption('');
+                                            setSelectedPrice(Number(food.price));
+                                        } else {
+                                            // 選擇新的
+                                            setSelectedOption(option.name);
+                                            setSelectedPrice(Number(food.price) + option.extra);
+                                        }
+                                    }}
+                                >
+                                    {option.name}
+                                </button>
+                            ))}
+                        </div>
+                    )}
+
+                    {food.category === "好食Pasta" && (
+                        <div className="flex gap-2 mt-2">
+                            {pastaOptions.map(option => (
+                                <button
+                                    key={option.name}
+                                    className={`px-3 py-1 border rounded ${selectedOption === option.name ? 'bg-red-300 text-white' : 'bg-white hover:bg-red-200'
+                                        }`}
+                                    onClick={() => {
+                                        if (selectedOption === option.name) {
+                                            // 取消選擇 → 還原價格與名稱
+                                            setSelectedOption('');
+                                            setSelectedPrice(Number(food.price));
+                                        } else {
+                                            // 選擇新的
+                                            setSelectedOption(option.name);
+                                            setSelectedPrice(Number(food.price) + option.extra);
+                                        }
+                                    }}
+                                >
+                                    {option.name}
+                                </button>
+                            ))}
+                        </div>
+                    )}
 
                     <div className="w-full px-4 flex justify-start items-center -mt-3">
                         <p className="w-[30rem] mx-[3rem] text-[1.3rem] text-left">{food.information}</p>
@@ -84,11 +162,20 @@ function FoodDetail({ food }) {
 
                             </select>
                         </div>
+
+                        {/* 總價根據select到的價格做變化 */}
                         <div className="mb-[3rem] flex flex-col items-center justify-between pr-8 gap-2 pr-[0.5rem] text-[#631616]">
                             <p className="w-full text-right px-[3.8rem] text-[1.2rem]">
-                                <span className="font-bold">總價</span>:  {food.price * qty}
+                                <span className="font-bold">總價</span>:  {selectedPrice * qty}
                             </p>
-                            <AddToCart food={food} qty={qty} />
+                            <AddToCart
+                                food={{
+                                    ...food,
+                                    price: selectedPrice,
+                                    name: selectedOption ? `${food.name} - ${selectedOption}` : food.name
+                                }}
+                                qty={qty}
+                            />
                         </div>
 
                     </div>
@@ -114,14 +201,68 @@ function FoodDetail({ food }) {
                         </div>
                     </div>
 
-                    <div className="flex w-full">
-                        <div className="w-[12rem] px-2 flex justify-start -mt-3 text-left pl-[4rem] mr-0 -ml-[0.5rem]">
-                            <h3 className=" w-[10rem] text-[1.4rem] font-semibold ">{food.name}</h3>
+                    <div className="flex w-full justify-between">
+                        <div className="w-full pr-10 flex justify-start -mt-3 text-left pl-[3rem] mr-0 -ml-[0.5rem]">
+                            <h3 className=" w-auto text-[1.4rem] font-semibold">{food.name}</h3>
+                            <h4 className='text-[1.4rem] font-semibold text-right'>
+                                {selectedOption ? ` -  ${selectedOption}` : ''}
+                            </h4>
                         </div>
                         <div className="w-[5.5rem] px-3 -ml-[1rem] ">
-                            <p className="translate-y-[-5px] text-left text-[#631616] font-md text-[1rem]"> ${food.price}NTD</p>
+                            <p className="translate-y-[-5px] text-right text-[#631616] font-md text-[1rem]"> ${selectedPrice} NTD</p>
                         </div>
                     </div>
+
+                    {/* 元氣好食選麵包的按鈕 */}
+                    {food.category === "元氣好食" && (
+                        <div className="flex gap-2 ml-4">
+                            {breadOptions.map(option => (
+                                <button
+                                    key={option.name}
+                                    className={`text-[1rem] px-3 py-1 border rounded ${selectedOption === option.name ? 'bg-red-300 text-white' : 'bg-white hover:bg-red-200'
+                                        }`}
+                                    onClick={() => {
+                                        if (selectedOption === option.name) {
+                                            // 取消選擇 → 還原價格與名稱
+                                            setSelectedOption('');
+                                            setSelectedPrice(Number(food.price));
+                                        } else {
+                                            // 選擇新的
+                                            setSelectedOption(option.name);
+                                            setSelectedPrice(Number(food.price) + option.extra);
+                                        }
+                                    }}
+                                >
+                                    {option.name}
+                                </button>
+                            ))}
+                        </div>
+                    )}
+
+                    {food.category === "好食Pasta" && (
+                        <div className="ml-4 grid grid-cols-3 grid-rows-2 gap-2 justify-center">
+                            {pastaOptions.map(option => (
+                                <button
+                                    key={option.name}
+                                    className={`text-[1rem] px-3 py-1 border rounded ${selectedOption === option.name ? 'bg-red-300 text-white' : 'bg-white hover:bg-red-200'
+                                        }`}
+                                    onClick={() => {
+                                        if (selectedOption === option.name) {
+                                            // 取消選擇 → 還原價格與名稱
+                                            setSelectedOption('');
+                                            setSelectedPrice(Number(food.price));
+                                        } else {
+                                            // 選擇新的
+                                            setSelectedOption(option.name);
+                                            setSelectedPrice(Number(food.price) + option.extra);
+                                        }
+                                    }}
+                                >
+                                    {option.name}
+                                </button>
+                            ))}
+                        </div>
+                    )}
 
                     <div className="w-full px-4 flex justify-between items-end -mt-3">
                         <p className="mx-[2rem] text-[1.1rem] w-[8rem]">{food.information}</p>
@@ -165,9 +306,16 @@ function FoodDetail({ food }) {
                         </div>
                         <div className="mb-[3rem] flex flex-col pr-8 gap-2 pr-[0.5rem] text-[#631616] mt-[0.7rem]">
                             <p className="w-[8rem] text-right pr-0 text-[1rem]">
-                                <span className="font-bold">總價</span>:  {food.price * qty}
+                                <span className="font-bold">總價</span>:  {selectedPrice * qty}
                             </p>
-                            <AddToCart food={food} qty={qty} />
+                            <AddToCart
+                                food={{
+                                    ...food,
+                                    price: selectedPrice,
+                                    name: selectedOption ? `${food.name} - ${selectedOption}` : food.name
+                                }}
+                                qty={qty}
+                            />
                         </div>
 
 
