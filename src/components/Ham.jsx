@@ -54,8 +54,8 @@ export default function Ham() {
                         <h2 className="bg-green-100 bg-opacity-50 text-xl font-bold pt-1 pb-1 mb-5 w-[15rem]">CATEGORY</h2>
 
 
-                        <div className="flex flex-col text-center px-10">
-                            <Link to="/" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green] py-4">首頁</Link>
+                        <div className="flex flex-col text-center px-10 gap-5">
+                            <Link to="/" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green]">首頁</Link>
                             <div className="relative inline-block " ref={dropdownRef}>
 
 
@@ -82,7 +82,9 @@ export default function Ham() {
                                     </ul>
                                 )}
                             </div>
-                            <Link to="/" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green]  py-4">登入列表</Link>
+
+                            <Link to="/Map" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green]">地圖探索</Link>
+                            <Link to="/" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green]">會員登入</Link>
                         </div>
                     </div>
                 </div>
