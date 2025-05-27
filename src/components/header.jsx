@@ -42,7 +42,7 @@ function Header({ title }) {
 
             {/* 電腦頁面的排版 */}
             <div className="hidden md:flex absolute right-[12rem] gap-[1rem] z-25">
-                <Link to="/" className="hover:bg-orange-100 py-3 px-3"><h1>首頁</h1></Link>
+                <Link to="/" className="hover:bg-orange-100 py-3 px-3">首頁</Link>
                 <div className="relative inline-block hover:bg-orange-100 py-3 px-3" ref={dropdownRef}>
 
 
@@ -70,7 +70,8 @@ function Header({ title }) {
                     )}
                 </div>
 
-                <Link to="" className="hover:bg-orange-100 py-3 px-3"><h1>登入列表</h1></Link>
+                <Link to="/Map" className="hover:bg-orange-100 py-3 px-3">地圖探索</Link>
+                <Link to="" className="hover:bg-orange-100 py-3 px-3"><h1>會員登入</h1></Link>
             </div>
 
 

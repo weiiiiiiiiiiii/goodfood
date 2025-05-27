@@ -12,7 +12,7 @@ function AddToCart({ food, qty }) {
         setShowToast(true);
 
         dispatch(addCartItems({
-            id: food.id,
+            id: `${food.id}-${food.name}`,
             name: food.name,
             pic: food.pic,
             price: food.price,

@@ -57,7 +57,7 @@ function BasketModal({ isOpen, toggleModal }) {
                                     <div className="text-right text-lg flex">
                                         <div className="font-bold pr-5">${item.price * item.qty}</div>
                                         <div
-                                            className="text-xl opacity-70 cursor-poiner"
+                                            className="text-xl opacity-70 cursor-pointer"
                                             onClick={() => dispatch(removeCartItems(item.id))}
                                         >
                                             x
