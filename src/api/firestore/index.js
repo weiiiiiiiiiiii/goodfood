@@ -27,36 +27,31 @@ export const feedProducts = async () => {
 };
 
 
-// export const getProducts = async () => {
-//     const querySnapshot = await getDocs(foodCollection);
+export const getFoodById = async ({ queryKey }) => {
+    const [id] = queryKey;
+    const docRef = await doc(db, "breakfast", id);
+    const docSnap = await getDoc(docRef);
+    return docSnap.data();
+};
 
-//     // Convert the query to a json array.
-//     let result = [];
-//     querySnapshot.forEach(async (food) => {
-//         await result.push(food.data());
-//     });
-//     // console.log({ result });
-//     return result;
-// };
 
-// export const getProductById = async ({ queryKey }) => {
-//     const [id] = queryKey;
-//     const docRef = await doc(db, "breakfast", id);
-//     const docSnap = await getDoc(docRef);
-//     return docSnap.data();
-// };
+export const getFoodByCategory = async ({queryKey}) => {
+    const [category] = queryKey;
+    const q = await query(foodCollection, where("category", "==", category.toUpperCase()));
+    let querySnapshot = await getDocs(q);
+    let result = [];
+    querySnapshot.forEach((food) =>{
+        result.push(food.data());
+    })
+    return result;
+};
 
-// export const getProductsByCategory = async ({ queryKey }) => {
-//     const [category] = queryKey;
-//     const q = await query(
-//         foodCollection,
-//         where("category", "==", category.toUpperCase())
-//     );
-//     const querySnapshot = await getDocs(q);
-//     // Convert the query to a json array.
-//     let result = [];
-//     querySnapshot.forEach(async (food) => {
-//         await result.push(food.data());
-//     });
-//     return result;
-// };
+export const getFood = async () => {
+    let querySnapshot = await getDocs(foodCollection);
+    let result = [];
+    querySnapshot.forEach(async (food) =>{
+        await result.push(food.data());
+    });
+    console.log({ result });
+    return result;
+}
