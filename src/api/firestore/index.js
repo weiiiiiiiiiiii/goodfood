@@ -55,3 +55,13 @@ export const getFood = async () => {
     console.log({ result });
     return result;
 }
+
+export const getFoodById2 = async () => {
+    const q = await query(foodCollection, where("id2", "==", 1));
+    let querySnapshot = await getDocs(q);
+    let result = [];
+    querySnapshot.forEach((food) =>{
+        result.push(food.data());
+    })
+    return result;
+};

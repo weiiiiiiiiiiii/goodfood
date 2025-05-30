@@ -15,7 +15,7 @@ import { useFood } from '../react-query'
 export default function Product() {
     const title = "商品列表"
     const { data, isLoading } = useFood();
-    const breakfast = data
+    const breakfast = data;
     return (
         <MotionDiv className="MainLayout">
             <div>

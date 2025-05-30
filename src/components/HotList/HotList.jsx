@@ -3,22 +3,21 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Scrollbar } from 'swiper/modules';
 import './HotList.css'
 
-
 import 'swiper/css';
 import 'swiper/css/scrollbar';
 
+function HotList({ breakfast, isLoading }) {
 
+    if (isLoading || !Array.isArray(breakfast)) {
+        return <div className="text-center py-10">載入中...</div>;
+    }
 
-
-function HotList({ breakfast }) {
     return (
         <div className="bg-[#F3EBE6] mb-[8rem] pb-20 ">
-
-
             {/* 標題 */}
             <div className="flex pt-15 pb-20 items-center justify-center gap-5">
                 <hr className="text-[#E5C049] w-45 md:w-80 lg:w-150 border-1" />
-                <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#E5C049]">人氣美食</h1>
+                <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#E5C049]">人氣好食</h1>
                 <hr className="text-[#E5C049] w-45 md:w-80 lg:w-150 border-1" />
             </div>
 
@@ -43,15 +42,11 @@ function HotList({ breakfast }) {
                     }}
                     className="custom-swiper"
                 >
-                    {breakfast
-                        .filter((food) => food.id2 !== undefined)
-                        .map((food) => (
-                            <SwiperSlide key={food.id2}>
-                                <HotItems food={food} />
-                            </SwiperSlide>
-
-
-                        ))}
+                    {Array.isArray(breakfast) && breakfast.map((food) => (
+                        <SwiperSlide key={food.id}>
+                            <HotItems food={food} />
+                        </SwiperSlide>
+                    ))}
                 </Swiper>
             </div>
 

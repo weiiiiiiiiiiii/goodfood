@@ -1,5 +1,3 @@
-import breakfast from "../json/breakfast.json"
-
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Concept from "../components/Concept";
@@ -8,28 +6,39 @@ import Environment from "../components/Environment/Environment";
 import MotionDiv from "../motion/MotionDiv";
 import Ham from "../components/Ham";
 
-
-
+import { useFoodById2 } from '../react-query'
+// import breakfast from "../json/breakfast.json"
 
 function Home() {
+    const { data, isLoading } = useFoodById2();
+
+    if (isLoading || !data) {
+        return (
+            <MotionDiv className="MainLayout">
+                <div className="main-layout m-0 p-0">
+                    <Header title="好食 Breakfast" />
+                    <Ham />
+                    <Concept />
+                    <Environment />
+                    <div className="text-center py-10 text-lg text-gray-500">載入中...</div>
+                    <Footer />
+                </div>
+            </MotionDiv>
+        );
+    }
 
     return (
-
         <MotionDiv className="MainLayout">
             <div className="main-layout m-0 p-0">
-                <Header
-                    title="好食 Breakfast"
-                />
-                <Ham/>
+                <Header title="好食 Breakfast" />
+                <Ham />
                 <Concept />
                 <Environment />
-                <HotList breakfast={breakfast} />
+                <HotList breakfast={data} />
                 <Footer />
             </div>
         </MotionDiv>
-
-    )
-
+    );
 }
 
 export default Home;

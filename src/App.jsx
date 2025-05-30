@@ -15,11 +15,11 @@ import { persistor, store } from './redux/store'
 import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { feedProducts } from './api/firestore'
+// import { feedProducts } from './api/firestore'
 
 const queryClient = new QueryClient()
 
-feedProducts();
+// feedProducts();
 
 function App() {
 
@@ -29,7 +29,6 @@ function App() {
       <div className="relative min-h-screen bg-white">
         <div className="absolute inset-0 w-full bg-white/15 z-1 "></div>
         <div className="relative z-10 text-black">
-
           <QueryClientProvider client={queryClient}>
             <Provider store={store}>
               <PersistGate loading={null} persistor={persistor}>
@@ -50,15 +49,7 @@ function App() {
             </Provider>
             </QueryClientProvider>
         </div>
-
-
       </div>
-
-
-
-
-
-
     </>
   )
 }
