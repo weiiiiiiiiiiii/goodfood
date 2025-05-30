@@ -28,7 +28,7 @@ function FoodItems({ food }) {
             <div className="md:hidden">
                 <section className="pt-2">
                     <div className="rounded-sm h-30 my-3 bg-[#EAFFEA] shadow-[0_8px_10px_gray] transform transition-transform duration-300 hover:scale-102">
-                        <Link to={`/breakfast/id/${food.id}`} className="flex">
+                        <Link to={`/breakfast/id/${food.foodid}`} className="flex">
                             <img className="rounded-l-sm bg-white p-3 w-30" src={food.pic} alt={food.name} />
                             <div className="w-full text-left pl-3">
                                 <h1 className="font-bold text-lg pt-3">
