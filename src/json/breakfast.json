@@ -5,21 +5,21 @@
         "name": "薯餅塔",
         "information": "金黃酥脆的薯餅搭配濃郁醬料，層層堆疊，入口滿滿幸福感。",
         "short_information": "金黃酥脆的薯餅搭配濃...",
-        "price": "55",
+        "price": 55,
         "category": "好好食小點心",
         "pic": "/小點心/薯餅塔.png",
         "detail": "內含馬鈴薯、起司、蜂蜜芥末醬、番茄醬"
     },
     {
         "id": 2,
-        "id2": 0,
+        "id2": 1,
         "name": "脆薯",
         "information": "外酥內軟的黃金脆薯，現炸現吃最對味，是最經典的美味小點。",
         "short_information": "外酥內軟的黃金脆薯...",
-        "price": "30",
+        "price": 30,
         "category": "好好食小點心",
         "pic": "/小點心/脆薯.png",
-        "detail":""
+        "detail":"內含馬鈴薯、番茄醬"
     },
     {
         "id": 3,
@@ -27,10 +27,10 @@
         "name": "冰火波羅包",
         "information": "酥香波蘿包夾入冰涼奶油，一口咬下冰火交融，甜而不膩超療癒。",
         "short_information": "酥香波蘿包夾入冰涼奶...",
-        "price": "35",
+        "price": 35,
         "category": "好好食小點心",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"鬆軟麵包、冰心卡士達"
     },
     {
         "id": 4,
@@ -38,10 +38,10 @@
         "name": "糖霜蜂蜜",
         "information": "酥鬆丹麥淋上香甜糖霜與蜂蜜，口感多層次，甜香迷人。",
         "short_information": "酥鬆丹麥淋上香甜糖霜...",
-        "price": "40",
+        "price": 40,
         "category": "法式丹麥",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"法式蜂蜜丹麥吐司，撒上微量糖粉"
     },
     {
         "id": 5,
@@ -49,10 +49,10 @@
         "name": "泡菜燒肉",
         "information": "韓式泡菜與香煎燒肉結合，辣中帶香，手工蛋餅也能這麼過癮。",
         "short_information": "韓式泡菜與香煎燒肉結...",
-        "price": "65",
+        "price": 65,
         "category": "手工蛋餅",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"內含泡菜、豬肉，微辣"
     },
     {
         "id": 6,
@@ -60,7 +60,7 @@
         "name": "香薯乳酪",
         "information": "香濃乳酪與蛋餅完美融合，口感綿滑順口，甜鹹交錯剛剛好。",
         "short_information": "香濃乳酪與蛋餅完美融...",
-        "price": "65",
+        "price": 65,
         "category": "手工蛋餅",
         "pic": "/logo.png",
         "detail":""
@@ -71,10 +71,10 @@
         "name": "煙燻火腿",
         "information": "經典煙燻火腿片，鹹香濃郁，是早餐餐盤中不可或缺的靈魂角色。",
         "short_information": "經典煙燻火腿片，鹹香...",
-        "price": "40",
+        "price": 40,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/煙燻火腿.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、火腿、蜂蜜芥末醬、方蛋 馬芬堡:起司、荷包蛋、火腿"
     },
     {
         "id": 8,
@@ -82,10 +82,10 @@
         "name": "五花培根",
         "information": "五花培根煎至微焦，香氣四溢，油脂香與肉感完美平衡。",
         "short_information": "五花培根煎至微焦，香...",
-        "price": "",
+        "price": 40,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/五花培根.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、培根、蜂蜜芥末醬、方蛋 馬芬堡:起司、荷包蛋、培根"
     },
     {
         "id": 9,
@@ -93,10 +93,10 @@
         "name": "微笑薯餅",
         "information": "可愛造型薯餅，酥脆討喜，咬一口就讓人忍不住微笑。",
         "short_information": "可愛造型薯餅，酥脆討...",
-        "price": "",
+        "price": 45,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/微笑薯餅.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、薯餅、酸菜、蜂蜜芥末醬、方蛋 馬芬堡:起司、荷包蛋、薯餅"
     },
     {
         "id": 10,
@@ -104,10 +104,10 @@
         "name": "酥脆香雞",
         "information": "外皮金黃酥脆，裡頭多汁雞肉，讓人一吃就愛上的香雞塊。",
         "short_information": "外皮金黃酥脆，裡頭多...",
-        "price": "",
+        "price": 50,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/酥脆香雞.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、油炸雞肉、蜂蜜芥末醬、方蛋 馬芬堡:起司、荷包蛋、油炸雞肉"
     },
     {
         "id": 11,
@@ -115,10 +115,10 @@
         "name": "醃漬燒肉",
         "information": "燒肉醃製後的甜美滋味，為你提供美好的早晨",
         "short_information": "燒肉醃製後的甜美滋味...",
-        "price": "",
+        "price": 50,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/醃漬燒肉.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、醬油醃漬豬肉、方蛋 馬芬堡:起司、荷包蛋、醬油醃漬燒肉"
     },
     {
         "id": 12,
@@ -126,10 +126,10 @@
         "name": "洋蔥燻雞",
         "information": "燻雞的美妙風味，日式風味醃製，酥脆多汁超涮嘴。",
         "short_information": "燻雞的美妙風味，日式...",
-        "price": "",
+        "price": 50,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/洋蔥燻雞.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、洋蔥，燻雞肉、蜂蜜芥末醬、黑胡椒、方蛋 馬芬堡:起司、荷包蛋、洋蔥、燻雞肉"
     },
     {
         "id": 13,
@@ -137,21 +137,21 @@
         "name": "好食鮪魚",
         "information": "嚴選鮪魚拌入特製醬料，口感滑順鮮香，是健康與美味的完美結合。",
         "short_information": "嚴選鮪魚拌入特製醬料...",
-        "price": "",
+        "price": 50,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/好食鮪魚.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、沙拉醬、鮪魚、方蛋 馬芬堡:起司、荷包蛋、鮪魚"
     },
     {
         "id": 14,
-        "id2": 1,
+        "id2": 0,
         "name": "嫩煎腓力",
         "information": "精選牛腓力煎至恰到好處，外酥內嫩，肉香四溢，讓人回味無窮。",
         "short_information": "精選牛腓力煎至恰到好...",
-        "price": "",
+        "price": 50,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/嫩煎腓力.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、香煎牛肉、方蛋 馬芬堡:起司、荷包蛋、香煎牛肉"
     },
     {
         "id": 15,
@@ -159,10 +159,10 @@
         "name": "德式香腸",
         "information": "道地德式香腸，脆皮多汁，口感飽滿，是經典早餐的絕佳搭配。",
         "short_information": "道地德式香腸，脆皮多..",
-        "price": "",
+        "price": 60,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/德式香腸.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、豬肉德腸、番茄醬、方蛋 馬芬堡:起司、荷包蛋、豬肉德腸"
     },
     {
         "id": 16,
@@ -170,10 +170,10 @@
         "name": "咔啦雞腿",
         "information": "外酥內嫩的咔啦雞腿，鮮嫩多汁，香氣四溢，咬一口就停不下來。",
         "short_information": "外酥內嫩的咔啦雞腿...",
-        "price": "",
+        "price": 65,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/卡拉雞腿.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、起司、荷包蛋、炸雞腿排、方蛋 馬芬堡:起司、荷包蛋、炸雞腿排"
     },
     {
         "id": 17,
@@ -181,10 +181,10 @@
         "name": "漢堡肉排",
         "information": "手打漢堡肉排，肉香濃郁，每一口都是厚實的滿足，完美搭配你的每一餐",
         "short_information": "手打漢堡肉排，肉香濃...",
-        "price": "",
+        "price": 50,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/漢堡肉排.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、煎豬肉排、蜂蜜芥末醬、方蛋 馬芬堡:起司、荷包蛋、煎豬肉排"
     },
     {
         "id": 18,
@@ -192,10 +192,10 @@
         "name": "輕食蔬菜",
         "information": "多種新鮮蔬菜爽口搭配，輕盈無負擔，吃得健康又有飽足感。",
         "short_information": "多種新鮮蔬菜爽口搭配...",
-        "price": "",
+        "price": 50,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/輕食蔬菜.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、蜂蜜芥末醬、方蛋 馬芬堡:起司、荷包蛋、生菜"
     },
     {
         "id": 19,
@@ -203,10 +203,10 @@
         "name": "香檸雞柳",
         "information": "檸檬香氣搭配酥炸雞柳，酸香清爽又開胃。",
         "short_information": "檸檬香氣搭配酥炸雞...",
-        "price": "",
+        "price": 60,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/香檸雞柳.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、檸檬雞柳條、蜂蜜芥末醬、方蛋 馬芬堡:起司、荷包蛋、檸檬雞柳條"
     },
     {
         "id": 20,
@@ -214,10 +214,10 @@
         "name": "黃金鱈魚",
         "information": "金黃酥脆外皮包裹著鮮嫩鱈魚，香酥不油膩，老少咸宜的海味首選",
         "short_information": "金黃酥脆外皮包裹著鮮...",
-        "price": "",
+        "price": 70,
         "category": "元氣好食",
         "pic": "/元氣好食-材料/黃金鱈魚.png",
-        "detail":""
+        "detail":"起士堡、丹麥吐司:生菜、番茄、沙拉醬、炸鱈魚塊、蜂蜜芥末醬、方蛋 馬芬堡:起司、荷包蛋、炸鱈魚塊"
     },
     {
         "id": 21,
@@ -225,10 +225,10 @@
         "name": "薯餅",
         "information": "酥脆外皮、綿密內餡，早餐經典好朋友，一塊接一塊超涮嘴。",
         "short_information": "酥脆外皮、綿密內餡...",
-        "price": "15",
+        "price": 15,
         "category": "好好食小點心",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"馬鈴薯餅"
     },
     {
         "id": 22,
@@ -236,10 +236,10 @@
         "name": "麥克雞塊",
         "information": "外酥內嫩的經典炸雞塊，搭配番茄醬更對味，是你解嘴饞的好選擇。",
         "short_information": "外酥內嫩的經典炸雞...",
-        "price": "30",
+        "price": 30,
         "category": "好好食小點心",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"香炸雞塊、胡椒鹽"
     },
     {
         "id": 23,
@@ -247,10 +247,10 @@
         "name": "芝心棒",
         "information": "外皮香酥，內餡拉絲起司爆漿，每一口都是濃濃的幸福感。",
         "short_information": "外皮香酥，內餡拉絲起...",
-        "price": "35",
+        "price": 35,
         "category": "好好食小點心",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"炸起司乳酪條"
     },
     {
         "id": 24,
@@ -258,10 +258,10 @@
         "name": "香檸雞柳條",
         "information": "檸香四溢的雞柳條，清爽又不膩口，讓人一吃就愛上。",
         "short_information": "檸香四溢的雞柳條，清...",
-        "price": "40",
+        "price": 40,
         "category": "好好食小點心",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"檸檬香味炸雞柳條"
     },
     {
         "id": 25,
@@ -269,7 +269,7 @@
         "name": "好食捲餅",
         "information": "手工現做捲餅，包裹豐富餡料，飽足感十足，每一口都是滿滿驚喜。",
         "short_information": "手工現做捲餅，包裹...",
-        "price": "50",
+        "price": 50,
         "category": "好好食小點心",
         "pic": "/logo.png",
         "detail":""
@@ -280,10 +280,10 @@
         "name": "堅果沙拉",
         "information": "新鮮生菜搭配營養堅果，口感豐富又健康，是輕食控的最愛。",
         "short_information": "新鮮生菜搭配營養堅...",
-        "price": "50",
+        "price": 50,
         "category": "好好食小點心",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"內含腰果、杏仁、南瓜籽、葡萄乾、生菜、番茄、千島醬"
     },
     {
         "id": 27,
@@ -291,10 +291,10 @@
         "name": "楓糖堅果",
         "information": "香甜楓糖搭配酥脆堅果，入口層次豐富，甜而不膩，是優雅下午茶的最佳選擇。",
         "short_information": "香甜楓糖搭配酥脆堅...",
-        "price": "40",
+        "price": 40,
         "category": "法式丹麥",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"法式丹麥吐司，內含腰果、杏仁、核桃、南瓜籽、糖粉"
     },
     {
         "id": 28,
@@ -302,10 +302,10 @@
         "name": "福源花生",
         "information": "選用福源濃醇花生醬，滑順濃郁、香氣撲鼻，花生控必吃的經典組合。",
         "short_information": "選用福源濃醇花生...",
-        "price": "40",
+        "price": 40,
         "category": "法式丹麥",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"法式丹麥吐司，花生醬及花生粉"
     },
     {
         "id": 29,
@@ -313,10 +313,10 @@
         "name": "煉乳巧克力",
         "information": "濃郁巧克力加上甜蜜煉乳，甜食控的夢幻逸品，一口接一口超療癒。",
         "short_information": "濃郁巧克力加上甜蜜...",
-        "price": "40",
+        "price": 40,
         "category": "法式丹麥",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"法式丹麥吐司，淋煉乳及巧克力醬"
     },
     {
         "id": 30,
@@ -324,7 +324,7 @@
         "name": "五花培根",
         "information": "經典五花肉搭配鹹香培根，肉香十足、香氣四溢，是早餐界的重量級選手。",
         "short_information": "經典五花肉搭配鹹...",
-        "price": "40",
+        "price": 40,
         "category": "手工蛋餅",
         "pic": "/logo.png",
         "detail":""
@@ -335,18 +335,18 @@
         "name": "乳酪起司",
         "information": "香濃乳酪加上融化起司，雙倍濃郁，起司控的夢幻蛋餅款。",
         "short_information": "香濃乳酪加上融化起司...",
-        "price": "45",
+        "price": 45,
         "category": "手工蛋餅",
         "pic": "/蛋餅/乳酪起司.png",
-        "detail":""
+        "detail":"香煎蛋餅包滿滿的乳酪起司"
     },
     {
         "id": 32,
-        "id2": 1,
+        "id2": 0,
         "name": "好食鮪魚",
         "information": "經典鮪魚餡搭配手工蛋餅皮，香氣十足、口感滑順，是不敗的早餐首選。",
         "short_information": "經典鮪魚餡搭配手工蛋...",
-        "price": "45",
+        "price": 45,
         "category": "手工蛋餅",
         "pic": "/logo.png",
         "detail":""
@@ -357,7 +357,7 @@
         "name": "洋蔥燻雞",
         "information": "煙燻雞肉融合洋蔥甜味，鹹香不膩，咬下去超有層次。",
         "short_information": "煙燻雞肉融合洋蔥甜...",
-        "price": "45",
+        "price": 45,
         "category": "手工蛋餅",
         "pic": "/logo.png",
         "detail":""
@@ -368,7 +368,7 @@
         "name": "泡菜培根",
         "information": "韓式泡菜微辣開胃，搭配香脆培根，酸辣交織的美味讓人上癮。",
         "short_information": "好韓式泡菜微辣開...",
-        "price": "55",
+        "price": 55,
         "category": "手工蛋餅",
         "pic": "/logo.png",
         "detail":""
@@ -379,7 +379,7 @@
         "name": "芋泥起司",
         "information": "綿密芋泥與濃郁起司完美融合，鹹甜交錯，每一口都像在吃甜點。",
         "short_information": "綿密芋泥與濃郁起司完...",
-        "price": "65",
+        "price": 65,
         "category": "手工蛋餅",
         "pic": "/logo.png",
         "detail":""
@@ -390,21 +390,21 @@
         "name": "好食紅茶",
         "information": "經典台式紅茶，茶香濃郁不苦澀，搭配任何餐點都超對味",
         "short_information": "經典台式紅茶，茶香...",
-        "price": "20",
+        "price": 20,
         "category": "好好喝",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"經典半糖紅茶"
     },
     {
         "id": 37,
-        "id2": 1,
+        "id2": 0,
         "name": "好食奶茶",
         "information": "香濃奶香結合紅茶的微澀回甘，甜而不膩的幸福滋味，讓人一喝就愛上。",
         "short_information": "香濃奶香結合紅茶...",
-        "price": "25",
+        "price": 25,
         "category": "好好喝",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"經典半糖奶茶"
     },
     {
         "id": 38,
@@ -412,10 +412,10 @@
         "name": "好食鮮奶茶",
         "information": "選用香濃鮮奶與紅茶完美比例調和，滑順口感中帶有濃厚茶香，喝起來超幸福。",
         "short_information": "選用香濃鮮奶與紅茶...",
-        "price": "40",
+        "price": 40,
         "category": "好好喝",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"美味紅茶加鮮奶"
     },
     {
         "id": 39,
@@ -423,10 +423,10 @@
         "name": "好食可可",
         "information": "香濃可可粉與鮮奶結合，每一口都像融化在巧克力裡，甜甜的最療癒～",
         "short_information": "香濃可可粉與鮮奶結合...",
-        "price": "40",
+        "price": 40,
         "category": "好好喝",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"濃郁可可飲"
     },
     {
         "id": 40,
@@ -434,10 +434,10 @@
         "name": "高大鮮乳",
         "information": "使用人氣高大牧場鮮乳，奶香濃郁、口感純淨，是最純粹的美味選擇。",
         "short_information": "使用人氣高大牧場鮮...",
-        "price": "50",
+        "price": 50,
         "category": "好好喝",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"一杯營養好喝的鮮奶"
     },
     {
         "id": 41,
@@ -445,10 +445,10 @@
         "name": "美式黑咖啡",
         "information": "經典美式黑咖啡，回甘不苦、香氣十足，是醒腦與沉思的完美良伴。",
         "short_information": "經典美式黑咖啡...",
-        "price": "40",
+        "price": 40,
         "category": "好好喝",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"美式咖啡"
     },
     {
         "id": 42,
@@ -456,10 +456,10 @@
         "name": "好食特調",
         "information": "店家特製神秘飲品，茶香與果香融合，每一口都有驚喜，值得一試的隱藏版風味！",
         "short_information": "店家特製神秘飲品...",
-        "price": "45",
+        "price": 45,
         "category": "好好喝",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"綠茶與當季新鮮水果"
     },
     {
         "id": 43,
@@ -467,10 +467,10 @@
         "name": "好食鴛鴦",
         "information": "紅茶與咖啡的雙重奏，香濃又順口，層次感十足，是經典中的經典。",
         "short_information": "紅茶與咖啡的雙重奏...",
-        "price": "50",
+        "price": 50,
         "category": "好好喝",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"美式咖啡加鮮奶加奶茶"
     },
     {
         "id": 44,
@@ -478,10 +478,10 @@
         "name": "拿鐵咖啡",
         "information": "濃縮咖啡與滑順牛奶的絕妙結合，香氣濃郁、奶香柔和，是早晨最療癒的開始。",
         "short_information": "濃縮咖啡與滑順牛...",
-        "price": "60",
+        "price": 60,
         "category": "好好喝",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"美式咖啡加鮮奶"
     },
     {
         "id": 45,
@@ -489,10 +489,10 @@
         "name": "可樂、雪碧",
         "information": "經典氣泡飲，沁涼暢快，是搭配鹹食的神隊友，怎麼喝都對味",
         "short_information": "經典氣泡飲，沁涼暢...",
-        "price": "30",
+        "price": 30,
         "category": "好好喝",
         "pic": "/好好喝/可樂、雪碧.png",
-        "detail":""
+        "detail":"氣泡飲"
     },
     {
         "id": 46,
@@ -500,10 +500,10 @@
         "name": "番茄義大利肉醬",
         "information": "經典番茄紅醬搭配香煎絞肉,酸甜濃郁、麵條Q彈,每一口都是義式風味的溫柔擁抱",
         "short_information": "經典番茄紅醬搭配香...",
-        "price": "65",
+        "price": 65,
         "category": "好食Pasta",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"番茄燉肉醬義大利麵，升級附煎蛋、紅茶"
     },
     {
         "id": 47,
@@ -511,10 +511,10 @@
         "name": "奶油玉米白醬",
         "information": "濃郁奶油白醬與甜甜玉米粒完美融合，滑順香濃，是小朋友也超愛的溫暖系口味。",
         "short_information": "濃郁奶油白醬與甜甜...",
-        "price": "70",
+        "price": 70,
         "category": "好食Pasta",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"玉米與奶油白醬義大利麵，升級附煎蛋、紅茶"
     },
     {
         "id": 48,
@@ -522,10 +522,10 @@
         "name": "鮭魚青醬",
         "information": "香濃青醬搭配厚實鮭魚塊，清新中帶著鮮美，義式靈魂在嘴裡綻放！。",
         "short_information": "香濃青醬搭配厚實鮭...",
-        "price": "75",
+        "price": 75,
         "category": "好食Pasta",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"鮭魚塊與九層塔青醬義大利麵，升級附煎蛋、紅茶"
     },
     {
         "id": 49,
@@ -533,10 +533,10 @@
         "name": "好球開打",
         "information": "元氣滿滿的活力組合，香脆主餐搭配經典配料，像場精彩開場球賽，讓味蕾準備熱血登場。",
         "short_information": "元氣滿滿的活力組合...",
-        "price": "100",
+        "price": 100,
         "category": "好食組合",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"肉醬香腸起士堡、堅果沙拉、薯條，一杯紅茶"
     },
     {
         "id": 50,
@@ -544,21 +544,21 @@
         "name": "爵士饗宴",
         "information": "如同一場輕鬆的爵士音樂會，餐點搭配溫柔又不失個性，讓你一口接一口享受慢活時光。",
         "short_information": "如同一場輕鬆的爵士...",
-        "price": "105",
+        "price": 105,
         "category": "好食組合",
         "pic": "/組合/爵士饗宴.png",
-        "detail":""
+        "detail":"起士堡、奶油、歐姆炒蛋、堅果沙拉、芝心棒，一杯紅茶"
     },
     {
         "id": 51,
-        "id2": 0,
+        "id2": 1,
         "name": "法式香頌",
         "information": "濃濃法式情調的美味搭配，優雅又浪漫，每一口都是巴黎街頭的味道～",
         "short_information": "濃濃法式情調的美味...",
-        "price": "100",
+        "price": 100,
         "category": "好食組合",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"煙燻牛肉可頌、堅果沙拉，一杯紅茶"
     },
     {
         "id": 52,
@@ -566,10 +566,10 @@
         "name": "盛夏派對",
         "information": "繽紛豐富的夏日風味組合，清爽開胃又帶點趣味，就像陽光沙灘上的快樂派對。",
         "short_information": "繽紛豐富的夏日風...",
-        "price": "105",
+        "price": 105,
         "category": "好食組合",
         "pic": "/組合/盛夏派對.png",
-        "detail":""
+        "detail":"香酥烤丹麥吐司、火腿起司蛋捲、堅果沙拉、薯條，一杯紅茶"
     },
     {
         "id": 53,
@@ -577,9 +577,12 @@
         "name": "美好食光",
         "information": "集結招牌人氣品項，無論早晨或午後，都能擁有屬於你的美好食光時刻～",
         "short_information": "集結招牌人氣品項...",
-        "price": "105",
+        "price": 105,
         "category": "好食組合",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"馬芬堡、火腿、培根、堅果沙拉、歐姆炒蛋，一杯紅茶"
     }
 ]
+
+
+

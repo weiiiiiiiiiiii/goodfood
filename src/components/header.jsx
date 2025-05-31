@@ -34,14 +34,14 @@ function Header({ title }) {
             {/* logo 標題*/}
             <Link to="/">
                 <img src="/logo.png" alt="logo"
-                    className="h-[3.8rem] pl-[4rem] md:pl-[6rem] pr-[0.5rem] "
+                    className="h-[3.8rem] pl-[4rem] md:pl-[3rem] lg:pl-[6rem] pr-[0.5rem] "
                 />
             </Link>
             <h1 className="text-[2rem] font-bold">{title}</h1>
 
 
             {/* 電腦頁面的排版 */}
-            <div className="hidden md:flex absolute right-[12rem] gap-[1rem] z-25">
+            <div className="hidden md:flex absolute right-[7rem] lg:right-[12rem] gap-[0.1rem] lg:gap-[1rem] z-25">
                 <Link to="/" className="hover:bg-orange-100 py-3 px-3">首頁</Link>
                 <div className="relative inline-block hover:bg-orange-100 py-3 px-3" ref={dropdownRef}>
 
