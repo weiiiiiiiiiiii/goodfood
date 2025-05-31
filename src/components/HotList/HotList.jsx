@@ -13,7 +13,7 @@ function HotList({ breakfast, isLoading }) {
     }
 
     return (
-        <div className="bg-[#F3EBE6] mb-[8rem] pb-20 ">
+        <div className="bg-[#F3EBE6] pb-20 ">
             {/* 標題 */}
             <div className="flex pt-15 pb-20 items-center justify-center gap-5">
                 <hr className="text-[#E5C049] w-45 md:w-80 lg:w-150 border-1" />

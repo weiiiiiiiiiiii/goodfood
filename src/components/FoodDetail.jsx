@@ -1,8 +1,9 @@
 import Heart from './Heart'
 import AddToCart from './AddToCart'
-import { useState } from "react"
+import { useState, useRef, useEffect } from "react"
 import { Link } from 'react-router';
 import Detail from './Detail';
+import Comments from './comment/Comments';
 
 
 
@@ -36,6 +37,25 @@ function FoodDetail({ food, isLoading }) {
     // 讓品項名字根據按鈕做更動
     const [selectedOption, setSelectedOption] = useState('');
 
+    // 留言顯示與否
+    const [showComments, setShowComments] = useState(false);
+
+    // 點擊按鈕自動滑動到留言區
+    const commentsRefDesktop = useRef(null);
+    const commentsRefMobile = useRef(null);
+
+    useEffect(() => {
+        if (showComments) {
+            // 根據目前是 desktop 還是 mobile 來判斷該 scroll 哪個區塊
+            const isMobile = window.innerWidth < 768;
+            const targetRef = isMobile ? commentsRefMobile : commentsRefDesktop;
+
+            if (targetRef.current) {
+                targetRef.current.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [showComments]);
+
     return (
         <>
             {isLoading ? (
@@ -48,8 +68,8 @@ function FoodDetail({ food, isLoading }) {
                         {/* 電腦螢幕*/}
                         <Link to="/Product" className='hidden md:flex text-[1rem] border h-auto p-3 absolute left-10 rounded-xl top-30 hover:bg-red-100'>↩回前頁</Link>
 
-                        <div className="hidden md:flex">
-                            <div className="w-3/5 mx-auto flex flex-col justify-center items-center gap-10 bg-[#F9E1E1] text-black  mt-10 mb-[10rem] py-5 rounded-3xl">
+                        <div className="hidden md:flex md:flex-col">
+                            <div className="w-3/5 mx-auto flex flex-col justify-center items-center gap-10 bg-[#F9E1E1] text-black  mt-10 mb-[7rem] py-5 rounded-3xl">
                                 <img
                                     src={food.pic}
                                     alt=""
@@ -57,7 +77,9 @@ function FoodDetail({ food, isLoading }) {
                                 <div className="w-full px-4 mb-0">
                                     <div className="flex justify-start items-center gap-[2rem] mx-[3rem]">
                                         <Heart />
-                                        <button className="border border-black border-[2px] rounded-2xl px-[1rem] py-[0.1rem] text-[1.5rem] text-black transition-all duration-400 hover:bg-red-300 hover:border-none hover:text-white cursor-pointer group-hover:scale-105"> Comments </button>
+                                        <button
+                                            onClick={() => setShowComments(prev => !prev)}
+                                            className="border border-black border-[2px] rounded-2xl px-[1rem] py-[0.1rem] text-[1.5rem] text-black transition-all duration-400 hover:bg-red-300 hover:border-none hover:text-white cursor-pointer group-hover:scale-105"> Comments </button>
                                     </div>
                                 </div>
 
@@ -186,7 +208,19 @@ function FoodDetail({ food, isLoading }) {
                                     </div>
 
                                 </div>
+
                             </div>
+
+                            {/* 留言區 */}
+                            {showComments && (
+                                <div ref={commentsRefDesktop} className='px-[8rem] lg:px-[13rem] bg-[#f6e1e1]/45 py-10'>
+                                    <h1 className='text-center text-3xl mb-13'>顧客評價</h1>
+                                    <hr className='text-[#EAC7C7] border-3 mb-10 rounded' />
+                                    <Comments />
+                                </div>
+                            )}
+
+
 
                         </div>
 
@@ -326,6 +360,16 @@ function FoodDetail({ food, isLoading }) {
                                     </div>
                                 </div>
                             </div>
+
+                            {/* 留言區 */}
+                            {showComments && (
+                                <div ref={commentsRefMobile} className='px-[1rem] bg-[#f6e1e1]/45 py-10'>
+                                    <h1 className='text-center text-2xl mb-10'>顧客評價</h1>
+                                    <hr className='text-[#EAC7C7] border-3 mb-10 rounded' />
+                                    <Comments />
+                                </div>
+                            )}
+
                         </div>
                     </>
                 )
