@@ -4,11 +4,13 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 import './App.css'
 import Home from './pages/home'
 import Detail from './pages/detailpage'
-import Category from './pages/Category'
+import Category from './pages/category'
 import AboutUs from './pages/AboutUs'
 import Product from './pages/Product'
 import Map from './pages/Map/Map'
 
+import Login from './pages/Login';
+import Register from './pages/Register';
 
 import ScrollToTop from './ScrollToTop'
 import { persistor, store } from './redux/store'
@@ -43,11 +45,15 @@ function App() {
                       <Route path="/breakfast/category/:foodcategory" element={<Category />} />
                       <Route path="id/:foodid" element={<Detail />} />
                     </Route>
+                    <Route path="auth">
+                      <Route path="login" element={<Login />} />
+                      <Route path="register" element={<Register />} />
+                    </Route>
                   </Routes>
                 </BrowserRouter>
               </PersistGate>
             </Provider>
-            </QueryClientProvider>
+          </QueryClientProvider>
         </div>
       </div>
     </>

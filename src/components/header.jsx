@@ -71,7 +71,7 @@ function Header({ title }) {
                 </div>
 
                 <Link to="/Map" className="hover:bg-orange-100 py-3 px-3">地圖探索</Link>
-                <Link to="" className="hover:bg-orange-100 py-3 px-3"><h1>會員登入</h1></Link>
+                <Link to="/auth/login" className="hover:bg-orange-100 py-3 px-3"><h1>會員登入</h1></Link>
             </div>
 
 
