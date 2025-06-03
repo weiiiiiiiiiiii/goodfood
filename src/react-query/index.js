@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { getFoodById, getFood, getFoodByCategory, getFoodById2 } from "@/api/fireStore";
+import { getFoodById, getFood, getFoodByCategory, getFoodById2 } from '../api/firestore';
 
 export const useFood = () => {
   return useQuery({
