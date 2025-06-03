@@ -7,6 +7,7 @@ import Footer from '../components/footer'
 
 // import breakfast from '../json/breakfast.json'
 import { useFoodById } from '../react-query'
+import Top from '../components/Top'
 
 function Detail() {
 
@@ -19,7 +20,7 @@ function Detail() {
     const title = "好好食"
     return (
         <div className='bg-[#F3EBE6]'>
-            <div className="container mx-auto">
+            <div className="container">
                 <Helmet>
                     <title>{title}</title>
                 </Helmet>
@@ -29,6 +30,7 @@ function Detail() {
                 />
                 <Ham />
                 <FoodDetail food={food} isLoading={isLoading} className="content"/>
+                <Top/>
                 <Footer />
 
             </div>

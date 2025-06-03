@@ -125,7 +125,7 @@ function FoodDetail({ food, isLoading }) {
                                     </div>
                                 )}
 
-                                {food.category === "好食Pasta" && (
+                                {food.category ?.toLowerCase() === "好食pasta".toLowerCase() && (
                                     <div className="flex gap-2 mt-2">
                                         {pastaOptions.map(option => (
                                             <button
@@ -280,7 +280,7 @@ function FoodDetail({ food, isLoading }) {
                                     </div>
                                 )}
 
-                                {food.category === "好食Pasta" && (
+                                {food.category ?.toLowerCase() === "好食pasta".toLowerCase() && (
                                     <div className="ml-4 grid grid-cols-3 grid-rows-2 gap-2 justify-center">
                                         {pastaOptions.map(option => (
                                             <button

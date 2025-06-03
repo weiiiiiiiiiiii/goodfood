@@ -1,5 +1,6 @@
 // import { div, span } from "framer-motion/client"
 import FoodItems from "./FoodItems"
+import Top from "./Top";
 
 function FoodList({ breakfast, isLoading }) {
     return (
@@ -14,6 +15,7 @@ function FoodList({ breakfast, isLoading }) {
                         {breakfast.map((food) => (
                             <FoodItems key={food.id} food={food} />
                         ))}
+                        <Top/>
                     </div>
                 )
             }
