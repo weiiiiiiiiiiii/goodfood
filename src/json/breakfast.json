@@ -272,7 +272,7 @@
         "price": 50,
         "category": "好好食小點心",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"抓餅+濃厚乳酪起司"
     },
     {
         "id": 26,
@@ -327,7 +327,7 @@
         "price": 40,
         "category": "手工蛋餅",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"蛋餅+香煎豬肉培根"
     },
     {
         "id": 31,
@@ -349,7 +349,7 @@
         "price": 45,
         "category": "手工蛋餅",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"蛋餅+微焦洋蔥炒鮪魚罐頭"
     },
     {
         "id": 33,
@@ -360,7 +360,7 @@
         "price": 45,
         "category": "手工蛋餅",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"蛋餅+微焦洋蔥炒燻雞肉"
     },
     {
         "id": 34,
@@ -371,7 +371,7 @@
         "price": 55,
         "category": "手工蛋餅",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"蛋餅+台式微辣泡菜+香煎培根"
     },
     {
         "id": 35,
@@ -382,7 +382,7 @@
         "price": 65,
         "category": "手工蛋餅",
         "pic": "/logo.png",
-        "detail":""
+        "detail":"蛋餅+濃郁芋泥+牽絲乳酪起司"
     },
     {
         "id": 36,
@@ -583,6 +583,13 @@
         "detail":"馬芬堡、火腿、培根、堅果沙拉、歐姆炒蛋，一杯紅茶"
     }
 ]
+
+
+
+
+
+
+
 
 
 
