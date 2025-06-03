@@ -8,7 +8,7 @@ function Login(){
 
     return(
         <div className="main-layout min-h-screen">
-            <div className="container mx-auto">
+            <div>
                 <Helmet>
                     <title>{title}</title>
                 </Helmet>

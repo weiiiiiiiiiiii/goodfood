@@ -20,7 +20,7 @@ function Detail() {
     const title = "好好食"
     return (
         <div className='bg-[#F3EBE6]'>
-            <div className="container">
+            <div>
                 <Helmet>
                     <title>{title}</title>
                 </Helmet>

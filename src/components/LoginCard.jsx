@@ -8,7 +8,7 @@ const LoginCard = ({ redirect }) =>{
     return(
         <form 
             onSubmit={onFinish}
-            className="bg-gray-100 p-6 mx-auto my-[50px] w-[500px] rounded-xl shadow-md space-y-4 content"
+            className="bg-gray-100 p-6 mx-auto my-[70px] w-[500px] rounded-xl shadow-md space-y-4 content"
         >
             <div>
                 <label className="label">
