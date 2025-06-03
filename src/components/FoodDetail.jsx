@@ -14,8 +14,24 @@ function FoodDetail({ food, isLoading }) {
     const [isOpen, setIsOpen] = useState(false);
     const toggleModal = () => setIsOpen(!isOpen);
 
-    // 元氣好食選價格用select找到後根據品項增加價錢
-    const [selectedPrice, setSelectedPrice] = useState(Number(food.price));
+    //這裡有個小盒子放著食物的價錢 一開始放的是0元 因為不知道實際的價格是多少
+    const [selectedPrice, setSelectedPrice] = useState(0);
+
+    //useEffect 當某些事情發生時 我就要開始一些動作囉
+    // -->資料讀取好了我就要開始做事囉
+    useEffect(() => {
+
+        //假如資料跑好了而且食物有價格
+        if (!isLoading && food?.price) {
+
+            //把資料放進的小盒子裡面囉
+            //Number 以防資料是字串 先轉成數字
+            setSelectedPrice(Number(food.price));
+        }
+
+        //只要isLoading或food有改變 剛剛的動作就再重新一次
+    }, [isLoading, food]);
+
     const breadOptions = [
         { name: '起士堡', extra: 0 },
         { name: '馬芬堡', extra: 5 },
@@ -125,7 +141,7 @@ function FoodDetail({ food, isLoading }) {
                                     </div>
                                 )}
 
-                                {food.category ?.toLowerCase() === "好食pasta".toLowerCase() && (
+                                {food.category?.toLowerCase() === "好食pasta".toLowerCase() && (
                                     <div className="flex gap-2 mt-2">
                                         {pastaOptions.map(option => (
                                             <button
@@ -280,7 +296,7 @@ function FoodDetail({ food, isLoading }) {
                                     </div>
                                 )}
 
-                                {food.category ?.toLowerCase() === "好食pasta".toLowerCase() && (
+                                {food.category?.toLowerCase() === "好食pasta".toLowerCase() && (
                                     <div className="ml-4 grid grid-cols-3 grid-rows-2 gap-2 justify-center">
                                         {pastaOptions.map(option => (
                                             <button

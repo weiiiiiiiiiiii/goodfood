@@ -4,7 +4,7 @@ import RegisterCard from '../components/RegisterCard'
 import Footer from '../components/footer'
 
 function Register() {
-    const title = "助好食";
+    const title = "祝好食";
     return (
         <div className="main-layout min-h-screen">
             <div className="container mx-auto">
