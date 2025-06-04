@@ -9,6 +9,18 @@ function AddToCart({ food, qty }) {
     const [showToast, setShowToast] = useState(false);
 
     const addtoCart = () => {
+
+        // 若沒有選麵包，跳出警告提示
+        const yuanqi = food.category === "元氣好食";
+        const breadSelect = food.name.includes(" - ");
+
+        if (yuanqi && !breadSelect) {
+            setErrorToast(true);
+            setTimeout(() => setErrorToast(false), 2000);
+            return; // ❌ 不加入購物車
+        }
+
+
         setShowToast(true);
 
         dispatch(addCartItems({
@@ -22,7 +34,11 @@ function AddToCart({ food, qty }) {
         setTimeout(() => {
             setShowToast(false);
         }, 2000);
+
+
     }
+
+    const [errorToast, setErrorToast] = useState(false); // 新增錯誤提示狀態
 
     return (
         <>
@@ -51,11 +67,23 @@ function AddToCart({ food, qty }) {
 
             </button>
 
+            {/* 正常顯示 */}
             {showToast && (
                 <div className="toast toast-end">
                     <div className="alert">
                         <span>
                             {qty}{qty > 1 ? "個" : "個"} {food.name} {qty > 1 ? "已經" : "已經"}加入到你的購物車
+                        </span>
+                    </div>
+                </div>
+            )}
+
+            {/* 錯誤提示訊息 */}
+            {errorToast && (
+                <div className="toast toast-end">
+                    <div className="alert bg-red-200">
+                        <span>
+                            請選擇麵包種類
                         </span>
                     </div>
                 </div>
