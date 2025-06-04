@@ -7,11 +7,28 @@ import { db } from "../api/firebaseConfig"
 import { useState } from "react";
 import { Link } from "react-router";
 import { Mail, Lock } from 'lucide-react';
+import { useEffect } from "react";
+import { onAuthStateChanged } from "firebase/auth";
+import { useNavigate } from "react-router-dom";
 
 const LoginCard = ({ redirect }) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [rememberMe, setRememberMe] = useState(false);
+    
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        const unsubscribe = onAuthStateChanged(auth, (user) => {
+            if (user) {
+                // 如果已登入，就導回首頁或其他頁面
+                alert("您已經登入囉～");
+                navigate("/");
+            }
+        });
+
+        return () => unsubscribe();
+    }, []);
 
     const onFinish = async (e) => {
         e.preventDefault();
@@ -41,67 +58,67 @@ const LoginCard = ({ redirect }) => {
     };
 
     return (
-            <form
-                onSubmit={onFinish}
-                className="bg-gray-100 p-6 mx-auto my-[70px] w-[350px] md:w-[500px] rounded-xl shadow-md space-y-4 content"
+        <form
+            onSubmit={onFinish}
+            className="bg-gray-100 p-6 mx-auto my-[70px] w-[350px] md:w-[500px] rounded-xl shadow-md space-y-4 content"
+        >
+            <div>
+                <label className="label">
+                    <span className="label-text text-sm md:text-base">E-mail</span>
+                </label>
+                <div className="relative">
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="e.g., rwei@example.com"
+                        className="input input-bordered w-full pl-10 bg-gray-300"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                    />
+                    <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-current" />
+                </div>
+            </div>
+            <div>
+                <label className="label">
+                    <span className="label-text text-sm md:text-base">密碼</span>
+                </label>
+                <div className="relative">
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="At least 6 characters"
+                        className="input input-bordered w-full pl-10 bg-gray-300"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        required
+                    />
+                    <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-current" />
+                </div>
+            </div>
+            <div className="flex items-center justify-between">
+                <label className="flex items-center space-x-2 cursor-pointer">
+                    <input
+                        type="checkbox"
+                        checked={rememberMe}
+                        onChange={e => setRememberMe(e.target.checked)}
+                        className="w-5 h-5 rounded cursor-pointer"
+                    />
+                    <span className="text-xs md:text-sm text-gray-800 font-medium">記住我</span>
+                </label>
+                <Link to="/" className="link link-hover text-xs md:text-sm">忘記密碼</Link>
+            </div>
+            <button
+                type="submit"
+                className="btn bg-[#16a34a]/70 w-full text-xs md:text-sm"
+                disabled={false}
             >
-                <div>
-                    <label className="label">
-                        <span className="label-text text-sm md:text-base">E-mail</span>
-                    </label>
-                    <div className="relative">
-                        <input
-                            type="email"
-                            name="email"
-                            placeholder="e.g., rwei@example.com"
-                            className="input input-bordered w-full pl-10 bg-gray-300"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            required
-                        />
-                        <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-current" />
-                    </div>
-                </div>
-                <div>
-                    <label className="label">
-                        <span className="label-text text-sm md:text-base">密碼</span>
-                    </label>
-                    <div className="relative">
-                        <input
-                            type="password"
-                            name="password"
-                            placeholder="At least 6 characters"
-                            className="input input-bordered w-full pl-10 bg-gray-300"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                            required
-                        />
-                        <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-current" />
-                    </div>
-                </div>
-                <div className="flex items-center justify-between">
-                    <label className="flex items-center space-x-2 cursor-pointer">
-                        <input
-                            type="checkbox"
-                            checked={rememberMe}
-                            onChange={e => setRememberMe(e.target.checked)}
-                            className="w-5 h-5 rounded cursor-pointer"
-                        />
-                        <span className="text-xs md:text-sm text-gray-800 font-medium">記住我</span>
-                    </label>
-                    <Link to="/" className="link link-hover text-xs md:text-sm">忘記密碼</Link>
-                </div>
-                <button
-                    type="submit"
-                    className="btn bg-[#16a34a]/70 w-full text-xs md:text-sm"
-                    disabled={false}
-                >
-                    登入
-                </button>
-                <p className="text-xs md:text-sm mt-2">
-                    Or <Link to={`/auth/register?redirect=${redirect}`} className="link text-[#166534]">現在註冊</Link>
-                </p>
-            </form>
+                登入
+            </button>
+            <p className="text-xs md:text-sm mt-2">
+                Or <Link to={`/auth/register?redirect=${redirect}`} className="link text-[#166534]">現在註冊</Link>
+            </p>
+        </form>
     );
 };
 
