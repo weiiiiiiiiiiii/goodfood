@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async'
 import Header from '../components/header'
 import LoginCard from '../components/LoginCard'
 import Footer from '../components/footer'
+import Ham from "../components/Ham";
 
 function Login(){
     const title = "登好食";
@@ -15,6 +16,7 @@ function Login(){
                 <Header 
                     title={title}
                 />
+                <Ham />
                 <LoginCard />
             </div>
             <Footer />

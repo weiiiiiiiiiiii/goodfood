@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async'
 import Header from '../components/header'
 import RegisterCard from '../components/RegisterCard'
 import Footer from '../components/footer'
+import Ham from "../components/Ham";
 
 function Register() {
     const title = "祝好食";
@@ -15,6 +16,7 @@ function Register() {
                     title={title}
                     slogan="The best place to buy your favorite products"
                 />
+                <Ham />
                 <RegisterCard />
             </div>
             <Footer className="footer" />
