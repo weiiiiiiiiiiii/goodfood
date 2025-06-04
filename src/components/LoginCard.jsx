@@ -7,7 +7,6 @@ import { db } from "../api/firebaseConfig"
 import { useState } from "react";
 import { Link } from "react-router";
 import { Mail, Lock } from 'lucide-react';
-import { div } from "framer-motion/client";
 
 const LoginCard = ({ redirect }) => {
     const [email, setEmail] = useState("");

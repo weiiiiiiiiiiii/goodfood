@@ -3,13 +3,25 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addCartItems } from "../redux/cartSlice";
 
+import { auth } from "../api/firebaseConfig"
+import { useLocation } from "react-router-dom"
 
 function AddToCart({ food, qty }) {
     const dispatch = useDispatch();
     const [showToast, setShowToast] = useState(false);
+    const [errorToast, setErrorToast] = useState(false); // 新增錯誤提示狀態
+
+    const location = useLocation(); 
 
     const addtoCart = () => {
 
+        //檢查是否登入
+        if(!auth.currentUser){
+            window.location.href=`/auth/login?redirect=${location.pathname}`;
+            return;
+        }
+
+        //如果登入了
         // 若沒有選麵包，跳出警告提示
         const yuanqi = food.category === "元氣好食";
         const breadSelect = food.name.includes(" - ");
@@ -17,7 +29,7 @@ function AddToCart({ food, qty }) {
         if (yuanqi && !breadSelect) {
             setErrorToast(true);
             setTimeout(() => setErrorToast(false), 2000);
-            return; // ❌ 不加入購物車
+            return; // 不加入購物車
         }
 
 
@@ -37,8 +49,6 @@ function AddToCart({ food, qty }) {
 
 
     }
-
-    const [errorToast, setErrorToast] = useState(false); // 新增錯誤提示狀態
 
     return (
         <>

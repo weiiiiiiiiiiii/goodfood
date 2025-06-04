@@ -57,7 +57,7 @@ const RegisterCard = ({ redirect }) => {
             alert("註冊成功!");
 
             //把使用者導到其他頁面 假如沒設定redirect就回首頁
-            window.location.href = redirect || "/";
+            window.location.href = `/auth/login?redirect=/`;
 
         } catch (error) {
             alert("註冊失敗:" + error.message);

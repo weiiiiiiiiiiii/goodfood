@@ -7,7 +7,7 @@ function Register() {
     const title = "祝好食";
     return (
         <div className="main-layout min-h-screen">
-            <div className="container mx-auto">
+            <div>
                 <Helmet>
                     <title>{title}</title>
                 </Helmet>
