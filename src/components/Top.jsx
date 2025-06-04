@@ -26,7 +26,7 @@ const Top = () => {
 
 
   return (
-    <button onClick={ToTop} className={`fixed bottom-6 right-6 p-4 bg-white/70 text-black rounded-full cursor-pointer shadow-lg transition-opacity duration-300 ${
+    <button onClick={ToTop} className={`fixed bottom-15 right-6 p-4 bg-white/70 text-black rounded-full cursor-pointer shadow-lg transition-opacity duration-300 ${
         isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
       }`}>
       Top
