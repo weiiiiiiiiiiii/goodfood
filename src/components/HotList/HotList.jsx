@@ -25,7 +25,7 @@ function HotList({ breakfast, isLoading }) {
                 {/* 標題 */}
                 <div className="flex pt-15 pb-20 items-center justify-center gap-5">
                     <hr className="text-[#E5C049] w-45 md:w-80 lg:w-150 border-1" />
-                    <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#E5C049]">人氣好食</h1>
+                    <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#E5C049]">好食推薦</h1>
                     <hr className="text-[#E5C049] w-45 md:w-80 lg:w-150 border-1" />
                 </div>
 

@@ -92,7 +92,7 @@ function FoodDetail({ food, isLoading }) {
                                     className="w-1/4 mt-15" />
                                 <div className="w-full px-4 mb-0">
                                     <div className="flex justify-start items-center gap-[2rem] mx-[3rem]">
-                                        <Heart />
+                                        <Heart  foodId={food.foodid}/>
                                         <button
                                             onClick={() => setShowComments(prev => !prev)}
                                             className="border border-black border-[2px] rounded-2xl px-[1rem] py-[0.1rem] text-[1.5rem] text-black transition-all duration-400 hover:bg-red-300 hover:border-none hover:text-white cursor-pointer group-hover:scale-105"> Comments </button>
@@ -253,7 +253,7 @@ function FoodDetail({ food, isLoading }) {
 
                                 <div className="w-full px-4 mb-0">
                                     <div className="flex justify-start items-center gap-[1.5rem] mx-[2.5rem]">
-                                        <Heart />
+                                        <Heart  foodId={food.foodid}/>
                                         <button className="border border-black border-[2px] rounded-2xl px-[1rem] py-[0.1rem] text-[0.9rem] text-black transition-all duration-400 hover:bg-red-300 hover:border-none hover:text-white cursor-pointer group-hover:scale-105"> Comments </button>
                                     </div>
                                 </div>
