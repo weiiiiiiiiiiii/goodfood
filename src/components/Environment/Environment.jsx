@@ -38,8 +38,8 @@ export default function Environment() {
                             </h2>
                         </div>
                
-                        <div className='flex justify-center items-center text-center bg-[#EBC7AF] w-40 h-30 md:w-90 md:h-50 lg:w-70 lg:h-40 translate-x-[300px] translate-y-[-80px] md:translate-x-[500px] md:translate-y-[-100px] lg:translate-x-[400px]'>
-                            {/* <img className='w-30 h-20 md:w-60 md:h-30 lg:w-45 lg:h-25 ' src="./logo2.png" alt="" /> */}
+                        <div className='flex justify-center items-center text-center bg-white w-40 h-30 md:w-90 md:h-60 lg:w-70 lg:h-50 translate-x-[300px] translate-y-[-80px] md:translate-x-[500px] md:translate-y-[-100px] lg:translate-x-[400px]'>
+                            <img className='w-40 h-30 md:w-90 md:h-60 lg:w-70 lg:h-50 opacity-90' src="/環境/環境小圖.JPG" alt="" />
                         </div>
                     </motion.div>
                 </div>
