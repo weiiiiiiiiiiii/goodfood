@@ -33,7 +33,7 @@ function AboutUs() {
                                 RWeiii
                             </p>
                             <p className="pt-2">
-                                作者的話
+                                自我介紹
                             </p>
                         </div>
 

@@ -148,23 +148,23 @@ const RegisterCard = ({ redirect }) => {
                     <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-current" />
                 </div>
             </div>
-            <div className="flex items-center space-x-2 bg-blue-50 p-3 rounded-lg border border-blue-300">
+            <div className="flex items-center space-x-2 bg-green-100 p-3 rounded-lg border border-green-300">
                 <input
                     type="checkbox"
                     checked={formData.agreement}
                     onChange={e => setFormData({ ...formData, agreement: e.target.checked })}
-                    className="w-5 h-5 accent-blue-600 rounded focus:ring-2 focus:ring-blue-400"
+                    className="w-5 h-5 rounded cursor-pointer"
                 />
                 <span className="text-sm text-gray-800 font-medium">
-                    我已詳細閱讀 <Link to="/" className="underline text-blue-600">條款</Link>
+                    我已詳細閱讀 <Link to="/" className="underline text-[#166534]">條款</Link>
                 </span>
             </div>
 
-            <button type="submit" className="btn btn-primary w-full" disabled={false}>
+            <button type="submit" className="btn bg-[#16a34a]/70 w-full" disabled={false}>
                 註冊帳號
             </button>
             <p className="text-sm mt-2">
-                已經有帳號了? <Link to={`/auth/login?redirect=${redirect}`} className="link link-primary">登入</Link>
+                已經有帳號了? <Link to={`/auth/login?redirect=${redirect}`} className="link text-[#166534]">登入</Link>
             </p>
         </form>
     );
