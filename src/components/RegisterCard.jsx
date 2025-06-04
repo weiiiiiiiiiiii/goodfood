@@ -68,11 +68,11 @@ const RegisterCard = ({ redirect }) => {
     return (
         <form
             onSubmit={onFinish}
-            className="bg-gray-100 p-6 mx-auto my-[50px] w-[500px] rounded-xl shadow-md space-y-4 content"
+            className="bg-gray-100 p-6 mx-auto my-[50px] w-[350px] md:w-[500px] rounded-xl shadow-md space-y-4 content"
         >
             <div>
                 <label className="label">
-                    <span className="label-text">你的名字</span>
+                    <span className="label-text text-sm md:text-base">你的名字</span>
                 </label>
                 <div className="relative">
                     <input
@@ -99,7 +99,7 @@ const RegisterCard = ({ redirect }) => {
             </div>
             <div>
                 <label className="label">
-                    <span className="label-text">E-mail</span>
+                    <span className="label-text text-sm md:text-base">E-mail</span>
                 </label>
                 <div className="relative">
                     <input
@@ -116,7 +116,7 @@ const RegisterCard = ({ redirect }) => {
             </div>
             <div>
                 <label className="label">
-                    <span className="label-text">密碼</span>
+                    <span className="label-text text-sm md:text-base">密碼</span>
                 </label>
                 <div className="relative">
                     <input
@@ -133,7 +133,7 @@ const RegisterCard = ({ redirect }) => {
             </div>
             <div>
                 <label className="label">
-                    <span className="label-text">確認密碼</span>
+                    <span className="label-text text-sm md:text-base">確認密碼</span>
                 </label>
                 <div className="relative">
                     <input
@@ -155,15 +155,15 @@ const RegisterCard = ({ redirect }) => {
                     onChange={e => setFormData({ ...formData, agreement: e.target.checked })}
                     className="w-5 h-5 rounded cursor-pointer"
                 />
-                <span className="text-sm text-gray-800 font-medium">
+                <span className="text-xs md:text-sm text-gray-800 font-medium">
                     我已詳細閱讀 <Link to="/" className="underline text-[#166534]">條款</Link>
                 </span>
             </div>
 
-            <button type="submit" className="btn bg-[#16a34a]/70 w-full" disabled={false}>
+            <button type="submit" className="btn bg-[#16a34a]/70 w-full  text-xs md:text-sm" disabled={false}>
                 註冊帳號
             </button>
-            <p className="text-sm mt-2">
+            <p className="text-xs md:text-sm mt-2">
                 已經有帳號了? <Link to={`/auth/login?redirect=${redirect}`} className="link text-[#166534]">登入</Link>
             </p>
         </form>

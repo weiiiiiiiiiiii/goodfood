@@ -78,7 +78,7 @@ export default function Ham() {
                             </div>
 
                             <Link to="/Map" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green]">地圖探索</Link>
-                            <Link to="/" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green]">會員登入</Link>
+                            <Link to="/auth/login" className="cursor-pointer hover:[text-shadow:0px_0px_30px_green]">會員登入</Link>
                         </div>
                     </div>
                 </div>

@@ -43,11 +43,11 @@ const LoginCard = ({ redirect }) => {
     return (
             <form
                 onSubmit={onFinish}
-                className="bg-gray-100 p-6 mx-auto my-[70px] w-[500px] rounded-xl shadow-md space-y-4 content"
+                className="bg-gray-100 p-6 mx-auto my-[70px] w-[350px] md:w-[500px] rounded-xl shadow-md space-y-4 content"
             >
                 <div>
                     <label className="label">
-                        <span className="label-text">E-mail</span>
+                        <span className="label-text text-sm md:text-base">E-mail</span>
                     </label>
                     <div className="relative">
                         <input
@@ -64,7 +64,7 @@ const LoginCard = ({ redirect }) => {
                 </div>
                 <div>
                     <label className="label">
-                        <span className="label-text">密碼</span>
+                        <span className="label-text text-sm md:text-base">密碼</span>
                     </label>
                     <div className="relative">
                         <input
@@ -87,18 +87,18 @@ const LoginCard = ({ redirect }) => {
                             onChange={e => setRememberMe(e.target.checked)}
                             className="w-5 h-5 rounded cursor-pointer"
                         />
-                        <span className="text-sm text-gray-800 font-medium">記住我</span>
+                        <span className="text-xs md:text-sm text-gray-800 font-medium">記住我</span>
                     </label>
-                    <Link to="/" className="link link-hover text-sm">忘記密碼</Link>
+                    <Link to="/" className="link link-hover text-xs md:text-sm">忘記密碼</Link>
                 </div>
                 <button
                     type="submit"
-                    className="btn bg-[#16a34a]/70 w-full "
+                    className="btn bg-[#16a34a]/70 w-full text-xs md:text-sm"
                     disabled={false}
                 >
                     登入
                 </button>
-                <p className="text-sm mt-2">
+                <p className="text-xs md:text-sm mt-2">
                     Or <Link to={`/auth/register?redirect=${redirect}`} className="link text-[#166534]">現在註冊</Link>
                 </p>
             </form>
